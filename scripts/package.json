@@ -1,0 +1,21 @@
+{
+  "name": "vsr-3g-sms-automation",
+  "version": "1.0.0",
+  "description": "Automated SMS retrieval and forwarding for TP-Link 3G modem",
+  "main": "puppeteer_sms_retriever.js",
+  "scripts": {
+    "test": "node puppeteer_sms_retriever.js data/current_messages.json data/forwarded_state.json",
+    "install-deps": "npm install"
+  },
+  "keywords": [
+    "sms",
+    "automation",
+    "puppeteer",
+    "tp-link"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.11.0"
+  }
+}

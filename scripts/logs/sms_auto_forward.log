@@ -1,0 +1,873 @@
+2026-01-29 00:09:28,305 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:09:28,306 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:09:28,307 - INFO - Forwarding SMS #99 from Vodafone. to Discord
+2026-01-29 00:09:28,540 - INFO - Successfully forwarded SMS #99 to Discord
+2026-01-29 00:09:28,542 - INFO - ✅ Forwarded message 99 from Vodafone.
+2026-01-29 00:09:28,543 - INFO - Forwarding SMS #98 from Vodafone. to Discord
+2026-01-29 00:09:28,779 - INFO - Successfully forwarded SMS #98 to Discord
+2026-01-29 00:09:28,782 - INFO - ✅ Forwarded message 98 from Vodafone.
+2026-01-29 00:09:28,783 - INFO - Forwarding SMS #97 from Vodafone. to Discord
+2026-01-29 00:09:29,186 - INFO - Successfully forwarded SMS #97 to Discord
+2026-01-29 00:09:29,187 - INFO - ✅ Forwarded message 97 from Vodafone.
+2026-01-29 00:09:29,189 - INFO - Forwarding SMS #96 from 865611216 to Discord
+2026-01-29 00:09:29,446 - INFO - Successfully forwarded SMS #96 to Discord
+2026-01-29 00:09:29,448 - INFO - ✅ Forwarded message 96 from 865611216
+2026-01-29 00:09:29,449 - INFO - Forwarding SMS #95 from 222177 to Discord
+2026-01-29 00:09:29,747 - INFO - Successfully forwarded SMS #95 to Discord
+2026-01-29 00:09:29,749 - INFO - ✅ Forwarded message 95 from 222177
+2026-01-29 00:09:29,749 - INFO - Forwarding SMS #94 from SANITAT  to Discord
+2026-01-29 00:09:30,146 - INFO - Successfully forwarded SMS #94 to Discord
+2026-01-29 00:09:30,167 - INFO - ✅ Forwarded message 94 from SANITAT 
+2026-01-29 00:09:30,170 - INFO - Forwarding SMS #93 from Vodafone to Discord
+2026-01-29 00:09:30,372 - ERROR - Discord API failed with status 429: {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+2026-01-29 00:09:30,378 - ERROR - ❌ Failed to forward message 93
+2026-01-29 00:09:30,380 - INFO - Forwarding SMS #92 from Vodafone. to Discord
+2026-01-29 00:09:30,612 - INFO - Successfully forwarded SMS #92 to Discord
+2026-01-29 00:09:30,614 - INFO - ✅ Forwarded message 92 from Vodafone.
+2026-01-29 00:09:30,615 - INFO - ==================================================
+2026-01-29 00:09:30,615 - INFO - 📊 Processing Summary:
+2026-01-29 00:09:30,615 - INFO -   Total messages: 8
+2026-01-29 00:09:30,615 - INFO -   New messages: 8
+2026-01-29 00:09:30,615 - INFO -   Forwarded: 7
+2026-01-29 00:09:30,615 - INFO -   Failed: 1
+2026-01-29 00:09:30,615 - INFO -   Skipped (already forwarded): 0
+2026-01-29 00:09:30,615 - INFO - ==================================================
+2026-01-29 00:09:30,616 - INFO - Sending batch summary to Discord: 7/8 forwarded
+2026-01-29 00:09:30,791 - ERROR - Discord API failed for summary: 429
+2026-01-29 00:09:53,015 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:09:53,015 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:09:53,015 - INFO - Forwarding SMS #93 from Vodafone to Discord
+2026-01-29 00:09:53,305 - INFO - Successfully forwarded SMS #93 to Discord
+2026-01-29 00:09:53,307 - INFO - ✅ Forwarded message 93 from Vodafone
+2026-01-29 00:09:53,307 - INFO - ==================================================
+2026-01-29 00:09:53,308 - INFO - 📊 Processing Summary:
+2026-01-29 00:09:53,308 - INFO -   Total messages: 8
+2026-01-29 00:09:53,308 - INFO -   New messages: 1
+2026-01-29 00:09:53,308 - INFO -   Forwarded: 1
+2026-01-29 00:09:53,308 - INFO -   Failed: 0
+2026-01-29 00:09:53,308 - INFO -   Skipped (already forwarded): 7
+2026-01-29 00:09:53,308 - INFO - ==================================================
+2026-01-29 00:09:53,308 - INFO - Sending batch summary to Discord: 1/8 forwarded
+2026-01-29 00:09:53,823 - INFO - Successfully sent batch summary to Discord
+2026-01-29 00:14:21,778 - ERROR - Discord configuration required!
+2026-01-29 00:14:21,779 - ERROR - Set DISCORD_WEBHOOK or (DISCORD_BOT_TOKEN + DISCORD_CHANNEL_ID)
+2026-01-29 00:14:43,942 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:14:43,943 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:14:43,943 - INFO - ==================================================
+2026-01-29 00:14:43,943 - INFO - 📊 Processing Summary:
+2026-01-29 00:14:43,943 - INFO -   Total messages: 8
+2026-01-29 00:14:43,943 - INFO -   New messages: 0
+2026-01-29 00:14:43,943 - INFO -   Forwarded: 0
+2026-01-29 00:14:43,943 - INFO -   Failed: 0
+2026-01-29 00:14:43,943 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:14:43,943 - INFO - ==================================================
+2026-01-29 00:23:38,854 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:23:38,854 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:23:38,855 - INFO - ==================================================
+2026-01-29 00:23:38,855 - INFO - 📊 Processing Summary:
+2026-01-29 00:23:38,855 - INFO -   Total messages: 8
+2026-01-29 00:23:38,855 - INFO -   New messages: 0
+2026-01-29 00:23:38,855 - INFO -   Forwarded: 0
+2026-01-29 00:23:38,855 - INFO -   Failed: 0
+2026-01-29 00:23:38,855 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:23:38,855 - INFO - ==================================================
+2026-01-29 00:35:06,524 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:35:06,525 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:35:06,527 - INFO - ==================================================
+2026-01-29 00:35:06,528 - INFO - 📊 Processing Summary:
+2026-01-29 00:35:06,529 - INFO -   Total messages: 8
+2026-01-29 00:35:06,530 - INFO -   New messages: 0
+2026-01-29 00:35:06,531 - INFO -   Forwarded: 0
+2026-01-29 00:35:06,533 - INFO -   Failed: 0
+2026-01-29 00:35:06,534 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:35:06,536 - INFO - ==================================================
+2026-01-29 00:49:47,754 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:49:47,757 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:49:47,757 - INFO - Forwarding SMS #99 from Vodafone. to Discord
+2026-01-29 00:49:48,041 - INFO - Successfully forwarded SMS #99 to Discord
+2026-01-29 00:49:48,050 - INFO - ✅ Forwarded message 99 from Vodafone.
+2026-01-29 00:49:48,050 - INFO - Forwarding SMS #98 from Vodafone. to Discord
+2026-01-29 00:49:48,330 - INFO - Successfully forwarded SMS #98 to Discord
+2026-01-29 00:49:48,336 - INFO - ✅ Forwarded message 98 from Vodafone.
+2026-01-29 00:49:48,338 - INFO - Forwarding SMS #97 from Vodafone. to Discord
+2026-01-29 00:49:48,796 - INFO - Successfully forwarded SMS #97 to Discord
+2026-01-29 00:49:48,803 - INFO - ✅ Forwarded message 97 from Vodafone.
+2026-01-29 00:49:48,830 - INFO - Forwarding SMS #96 from 865611216 to Discord
+2026-01-29 00:49:49,267 - INFO - Successfully forwarded SMS #96 to Discord
+2026-01-29 00:49:49,269 - INFO - ✅ Forwarded message 96 from 865611216
+2026-01-29 00:49:49,271 - INFO - Forwarding SMS #95 from 222177 to Discord
+2026-01-29 00:49:49,533 - INFO - Successfully forwarded SMS #95 to Discord
+2026-01-29 00:49:49,535 - INFO - ✅ Forwarded message 95 from 222177
+2026-01-29 00:49:49,536 - INFO - Forwarding SMS #94 from SANITAT  to Discord
+2026-01-29 00:49:49,870 - INFO - Successfully forwarded SMS #94 to Discord
+2026-01-29 00:49:49,876 - INFO - ✅ Forwarded message 94 from SANITAT 
+2026-01-29 00:49:49,881 - INFO - Forwarding SMS #93 from Vodafone to Discord
+2026-01-29 00:49:50,197 - INFO - Successfully forwarded SMS #93 to Discord
+2026-01-29 00:49:50,199 - INFO - ✅ Forwarded message 93 from Vodafone
+2026-01-29 00:49:50,200 - INFO - Forwarding SMS #92 from Vodafone. to Discord
+2026-01-29 00:49:50,494 - ERROR - Discord API failed with status 429: {"message": "You are being rate limited.", "retry_after": 0.488, "global": false}
+2026-01-29 00:49:50,497 - ERROR - ❌ Failed to forward message 92
+2026-01-29 00:49:50,515 - INFO - ==================================================
+2026-01-29 00:49:50,519 - INFO - 📊 Processing Summary:
+2026-01-29 00:49:50,526 - INFO -   Total messages: 8
+2026-01-29 00:49:50,529 - INFO -   New messages: 8
+2026-01-29 00:49:50,529 - INFO -   Forwarded: 7
+2026-01-29 00:49:50,530 - INFO -   Failed: 1
+2026-01-29 00:49:50,531 - INFO -   Skipped (already forwarded): 0
+2026-01-29 00:49:50,532 - INFO - ==================================================
+2026-01-29 00:49:50,534 - INFO - Sending batch summary to Discord: 7/8 forwarded
+2026-01-29 00:49:50,746 - ERROR - Discord API failed for summary: 429
+2026-01-29 00:52:59,793 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:52:59,793 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:52:59,794 - INFO - ==================================================
+2026-01-29 00:52:59,794 - INFO - 📊 Processing Summary:
+2026-01-29 00:52:59,794 - INFO -   Total messages: 8
+2026-01-29 00:52:59,794 - INFO -   New messages: 0
+2026-01-29 00:52:59,794 - INFO -   Forwarded: 0
+2026-01-29 00:52:59,794 - INFO -   Failed: 0
+2026-01-29 00:52:59,794 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:52:59,794 - INFO - ==================================================
+2026-01-29 00:55:37,283 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:55:37,283 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:55:37,283 - INFO - ==================================================
+2026-01-29 00:55:37,283 - INFO - 📊 Processing Summary:
+2026-01-29 00:55:37,283 - INFO -   Total messages: 8
+2026-01-29 00:55:37,283 - INFO -   New messages: 0
+2026-01-29 00:55:37,283 - INFO -   Forwarded: 0
+2026-01-29 00:55:37,283 - INFO -   Failed: 0
+2026-01-29 00:55:37,283 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:55:37,283 - INFO - ==================================================
+2026-01-29 00:56:35,119 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:56:35,120 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:56:35,120 - INFO - ==================================================
+2026-01-29 00:56:35,120 - INFO - 📊 Processing Summary:
+2026-01-29 00:56:35,120 - INFO -   Total messages: 8
+2026-01-29 00:56:35,120 - INFO -   New messages: 0
+2026-01-29 00:56:35,120 - INFO -   Forwarded: 0
+2026-01-29 00:56:35,120 - INFO -   Failed: 0
+2026-01-29 00:56:35,120 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:56:35,120 - INFO - ==================================================
+2026-01-29 00:58:20,992 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:58:20,992 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:58:20,992 - INFO - Forwarding SMS #92 from Vodafone. to Discord
+2026-01-29 00:58:21,268 - INFO - Successfully forwarded SMS #92 to Discord
+2026-01-29 00:58:21,269 - INFO - ✅ Forwarded message 92 from Vodafone.
+2026-01-29 00:58:21,270 - INFO - ==================================================
+2026-01-29 00:58:21,270 - INFO - 📊 Processing Summary:
+2026-01-29 00:58:21,271 - INFO -   Total messages: 8
+2026-01-29 00:58:21,271 - INFO -   New messages: 1
+2026-01-29 00:58:21,271 - INFO -   Forwarded: 1
+2026-01-29 00:58:21,271 - INFO -   Failed: 0
+2026-01-29 00:58:21,271 - INFO -   Skipped (already forwarded): 7
+2026-01-29 00:58:21,271 - INFO - ==================================================
+2026-01-29 00:58:21,271 - INFO - Sending batch summary to Discord: 1/8 forwarded
+2026-01-29 00:58:21,528 - INFO - Successfully sent batch summary to Discord
+2026-01-29 00:58:41,962 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:58:41,962 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:58:41,963 - INFO - ==================================================
+2026-01-29 00:58:41,963 - INFO - 📊 Processing Summary:
+2026-01-29 00:58:41,963 - INFO -   Total messages: 8
+2026-01-29 00:58:41,963 - INFO -   New messages: 0
+2026-01-29 00:58:41,963 - INFO -   Forwarded: 0
+2026-01-29 00:58:41,963 - INFO -   Failed: 0
+2026-01-29 00:58:41,963 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:58:41,963 - INFO - ==================================================
+2026-01-29 00:59:54,983 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:59:54,983 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:59:54,983 - INFO - ==================================================
+2026-01-29 00:59:54,983 - INFO - 📊 Processing Summary:
+2026-01-29 00:59:54,984 - INFO -   Total messages: 8
+2026-01-29 00:59:54,984 - INFO -   New messages: 0
+2026-01-29 00:59:54,984 - INFO -   Forwarded: 0
+2026-01-29 00:59:54,984 - INFO -   Failed: 0
+2026-01-29 00:59:54,984 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:59:54,984 - INFO - ==================================================
+2026-01-29 01:04:13,309 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:04:13,310 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:04:13,310 - INFO - ==================================================
+2026-01-29 01:04:13,310 - INFO - 📊 Processing Summary:
+2026-01-29 01:04:13,310 - INFO -   Total messages: 8
+2026-01-29 01:04:13,310 - INFO -   New messages: 0
+2026-01-29 01:04:13,310 - INFO -   Forwarded: 0
+2026-01-29 01:04:13,310 - INFO -   Failed: 0
+2026-01-29 01:04:13,310 - INFO -   Skipped (already forwarded): 8
+2026-01-29 01:04:13,310 - INFO - ==================================================
+2026-01-29 01:06:51,082 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:06:51,082 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:06:51,083 - INFO - ==================================================
+2026-01-29 01:06:51,083 - INFO - 📊 Processing Summary:
+2026-01-29 01:06:51,083 - INFO -   Total messages: 8
+2026-01-29 01:06:51,083 - INFO -   New messages: 0
+2026-01-29 01:06:51,083 - INFO -   Forwarded: 0
+2026-01-29 01:06:51,083 - INFO -   Failed: 0
+2026-01-29 01:06:51,083 - INFO -   Skipped (already forwarded): 8
+2026-01-29 01:06:51,083 - INFO - ==================================================
+2026-01-29 01:09:03,510 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:09:03,510 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:09:03,511 - INFO - Forwarding SMS #99 from Vodafone. to Discord
+2026-01-29 01:09:03,856 - INFO - Successfully forwarded SMS #99 to Discord
+2026-01-29 01:09:03,858 - INFO - ✅ Forwarded message 99 from Vodafone.
+2026-01-29 01:09:03,860 - INFO - Forwarding SMS #98 from Vodafone. to Discord
+2026-01-29 01:09:04,095 - INFO - Successfully forwarded SMS #98 to Discord
+2026-01-29 01:09:04,097 - INFO - ✅ Forwarded message 98 from Vodafone.
+2026-01-29 01:09:04,098 - INFO - Forwarding SMS #97 from Vodafone. to Discord
+2026-01-29 01:09:04,319 - INFO - Successfully forwarded SMS #97 to Discord
+2026-01-29 01:09:04,320 - INFO - ✅ Forwarded message 97 from Vodafone.
+2026-01-29 01:09:04,320 - INFO - Forwarding SMS #96 from 865611216 to Discord
+2026-01-29 01:09:04,601 - INFO - Successfully forwarded SMS #96 to Discord
+2026-01-29 01:09:04,602 - INFO - ✅ Forwarded message 96 from 865611216
+2026-01-29 01:09:04,603 - INFO - Forwarding SMS #95 from 222177 to Discord
+2026-01-29 01:09:04,915 - INFO - Successfully forwarded SMS #95 to Discord
+2026-01-29 01:09:04,917 - INFO - ✅ Forwarded message 95 from 222177
+2026-01-29 01:09:04,918 - INFO - Forwarding SMS #94 from SANITAT  to Discord
+2026-01-29 01:09:05,187 - INFO - Successfully forwarded SMS #94 to Discord
+2026-01-29 01:09:05,189 - INFO - ✅ Forwarded message 94 from SANITAT 
+2026-01-29 01:09:05,190 - INFO - Forwarding SMS #93 from Vodafone to Discord
+2026-01-29 01:09:05,355 - ERROR - Discord API failed with status 429: {"message": "You are being rate limited.", "retry_after": 0.372, "global": false}
+2026-01-29 01:09:05,358 - ERROR - ❌ Failed to forward message 93
+2026-01-29 01:09:05,363 - INFO - Forwarding SMS #92 from Vodafone. to Discord
+2026-01-29 01:09:05,557 - ERROR - Discord API failed with status 429: {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+2026-01-29 01:09:05,560 - ERROR - ❌ Failed to forward message 92
+2026-01-29 01:09:05,562 - INFO - ==================================================
+2026-01-29 01:09:05,563 - INFO - 📊 Processing Summary:
+2026-01-29 01:09:05,563 - INFO -   Total messages: 8
+2026-01-29 01:09:05,563 - INFO -   New messages: 8
+2026-01-29 01:09:05,563 - INFO -   Forwarded: 6
+2026-01-29 01:09:05,563 - INFO -   Failed: 2
+2026-01-29 01:09:05,563 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:09:05,564 - INFO - ==================================================
+2026-01-29 01:09:05,564 - INFO - Sending batch summary to Discord: 6/8 forwarded
+2026-01-29 01:09:05,838 - INFO - Successfully sent batch summary to Discord
+2026-01-29 01:12:10,529 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:12:10,531 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:12:10,532 - INFO - Forwarding SMS #93 from Vodafone to Discord
+2026-01-29 01:12:10,844 - INFO - Successfully forwarded SMS #93 to Discord
+2026-01-29 01:12:10,849 - INFO - ✅ Forwarded message 93 from Vodafone
+2026-01-29 01:12:10,853 - INFO - Forwarding SMS #92 from Vodafone. to Discord
+2026-01-29 01:12:11,228 - INFO - Successfully forwarded SMS #92 to Discord
+2026-01-29 01:12:11,230 - INFO - ✅ Forwarded message 92 from Vodafone.
+2026-01-29 01:12:11,233 - INFO - ==================================================
+2026-01-29 01:12:11,233 - INFO - 📊 Processing Summary:
+2026-01-29 01:12:11,234 - INFO -   Total messages: 8
+2026-01-29 01:12:11,234 - INFO -   New messages: 2
+2026-01-29 01:12:11,234 - INFO -   Forwarded: 2
+2026-01-29 01:12:11,234 - INFO -   Failed: 0
+2026-01-29 01:12:11,234 - INFO -   Skipped (already forwarded): 6
+2026-01-29 01:12:11,234 - INFO - ==================================================
+2026-01-29 01:12:11,234 - INFO - Sending batch summary to Discord: 2/8 forwarded
+2026-01-29 01:12:11,553 - INFO - Successfully sent batch summary to Discord
+2026-01-29 01:12:20,244 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:12:20,244 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:12:20,244 - INFO - Forwarding SMS #99 from Vodafone. to Discord
+2026-01-29 01:12:20,747 - INFO - Successfully forwarded SMS #99 to Discord
+2026-01-29 01:12:20,762 - INFO - ✅ Forwarded message 99 from Vodafone.
+2026-01-29 01:12:20,763 - INFO - Forwarding SMS #98 from Vodafone. to Discord
+2026-01-29 01:12:21,062 - INFO - Successfully forwarded SMS #98 to Discord
+2026-01-29 01:12:21,065 - INFO - ✅ Forwarded message 98 from Vodafone.
+2026-01-29 01:12:21,067 - INFO - Forwarding SMS #97 from Vodafone. to Discord
+2026-01-29 01:12:21,451 - INFO - Successfully forwarded SMS #97 to Discord
+2026-01-29 01:12:21,453 - INFO - ✅ Forwarded message 97 from Vodafone.
+2026-01-29 01:12:21,453 - INFO - Forwarding SMS #96 from 865611216 to Discord
+2026-01-29 01:12:21,691 - INFO - Successfully forwarded SMS #96 to Discord
+2026-01-29 01:12:21,694 - INFO - ✅ Forwarded message 96 from 865611216
+2026-01-29 01:12:21,695 - INFO - Forwarding SMS #95 from 222177 to Discord
+2026-01-29 01:12:21,929 - INFO - Successfully forwarded SMS #95 to Discord
+2026-01-29 01:12:21,931 - INFO - ✅ Forwarded message 95 from 222177
+2026-01-29 01:12:21,935 - INFO - Forwarding SMS #94 from SANITAT  to Discord
+2026-01-29 01:12:22,199 - INFO - Successfully forwarded SMS #94 to Discord
+2026-01-29 01:12:22,200 - INFO - ✅ Forwarded message 94 from SANITAT 
+2026-01-29 01:12:22,202 - INFO - Forwarding SMS #93 from Vodafone to Discord
+2026-01-29 01:12:22,366 - WARNING - Rate limited. Waiting 0.3s before retry (attempt 1/3)
+2026-01-29 01:12:23,006 - INFO - Successfully forwarded SMS #93 to Discord
+2026-01-29 01:12:23,009 - INFO - ✅ Forwarded message 93 from Vodafone
+2026-01-29 01:12:23,010 - INFO - Forwarding SMS #92 from Vodafone. to Discord
+2026-01-29 01:12:23,171 - WARNING - Rate limited. Waiting 0.309s before retry (attempt 1/3)
+2026-01-29 01:12:23,764 - INFO - Successfully forwarded SMS #92 to Discord
+2026-01-29 01:12:23,767 - INFO - ✅ Forwarded message 92 from Vodafone.
+2026-01-29 01:12:23,769 - INFO - ==================================================
+2026-01-29 01:12:23,769 - INFO - 📊 Processing Summary:
+2026-01-29 01:12:23,769 - INFO -   Total messages: 8
+2026-01-29 01:12:23,770 - INFO -   New messages: 8
+2026-01-29 01:12:23,770 - INFO -   Forwarded: 8
+2026-01-29 01:12:23,770 - INFO -   Failed: 0
+2026-01-29 01:12:23,770 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:12:23,770 - INFO - ==================================================
+2026-01-29 01:12:23,770 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:12:23,959 - ERROR - Discord API failed for summary: 429
+2026-01-29 01:13:19,988 - INFO - Loaded 0 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:13:19,988 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:13:19,988 - INFO - ==================================================
+2026-01-29 01:13:19,989 - INFO - 📊 Processing Summary:
+2026-01-29 01:13:19,989 - INFO -   Total messages: 0
+2026-01-29 01:13:19,989 - INFO -   New messages: 0
+2026-01-29 01:13:19,989 - INFO -   Forwarded: 0
+2026-01-29 01:13:19,989 - INFO -   Failed: 0
+2026-01-29 01:13:19,989 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:13:19,989 - INFO - ==================================================
+2026-01-29 01:23:35,567 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:23:35,567 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:23:35,568 - INFO - Forwarding SMS #91 from Vodafone. to Discord
+2026-01-29 01:23:35,882 - INFO - Successfully forwarded SMS #91 to Discord
+2026-01-29 01:23:35,885 - INFO - ✅ Forwarded message 91 from Vodafone.
+2026-01-29 01:23:35,885 - INFO - Forwarding SMS #90 from BBVA-ES  to Discord
+2026-01-29 01:23:36,165 - INFO - Successfully forwarded SMS #90 to Discord
+2026-01-29 01:23:36,170 - INFO - ✅ Forwarded message 90 from BBVA-ES 
+2026-01-29 01:23:36,177 - INFO - Forwarding SMS #89 from Vodafone. to Discord
+2026-01-29 01:23:36,498 - INFO - Successfully forwarded SMS #89 to Discord
+2026-01-29 01:23:36,500 - INFO - ✅ Forwarded message 89 from Vodafone.
+2026-01-29 01:23:36,501 - INFO - Forwarding SMS #88 from Vodafone. to Discord
+2026-01-29 01:23:36,753 - INFO - Successfully forwarded SMS #88 to Discord
+2026-01-29 01:23:36,755 - INFO - ✅ Forwarded message 88 from Vodafone.
+2026-01-29 01:23:36,756 - INFO - Forwarding SMS #87 from 623596386 to Discord
+2026-01-29 01:23:37,115 - INFO - Successfully forwarded SMS #87 to Discord
+2026-01-29 01:23:37,120 - INFO - ✅ Forwarded message 87 from 623596386
+2026-01-29 01:23:37,121 - INFO - Forwarding SMS #86 from 222177 to Discord
+2026-01-29 01:23:37,383 - INFO - Successfully forwarded SMS #86 to Discord
+2026-01-29 01:23:37,387 - INFO - ✅ Forwarded message 86 from 222177
+2026-01-29 01:23:37,389 - INFO - Forwarding SMS #85 from Vodafone. to Discord
+2026-01-29 01:23:37,622 - WARNING - Rate limited. Waiting 0.3s before retry (attempt 1/3)
+2026-01-29 01:23:38,147 - INFO - Successfully forwarded SMS #85 to Discord
+2026-01-29 01:23:38,149 - INFO - ✅ Forwarded message 85 from Vodafone.
+2026-01-29 01:23:38,150 - INFO - Forwarding SMS #84 from Vodafone. to Discord
+2026-01-29 01:23:38,312 - WARNING - Rate limited. Waiting 0.447s before retry (attempt 1/3)
+2026-01-29 01:23:39,170 - INFO - Successfully forwarded SMS #84 to Discord
+2026-01-29 01:23:39,172 - INFO - ✅ Forwarded message 84 from Vodafone.
+2026-01-29 01:23:39,176 - INFO - ==================================================
+2026-01-29 01:23:39,177 - INFO - 📊 Processing Summary:
+2026-01-29 01:23:39,177 - INFO -   Total messages: 8
+2026-01-29 01:23:39,177 - INFO -   New messages: 8
+2026-01-29 01:23:39,177 - INFO -   Forwarded: 8
+2026-01-29 01:23:39,177 - INFO -   Failed: 0
+2026-01-29 01:23:39,177 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:23:39,177 - INFO - ==================================================
+2026-01-29 01:23:39,177 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:23:39,370 - ERROR - Discord API failed for summary: 429
+2026-01-29 01:25:46,428 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:25:46,429 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:25:46,429 - INFO - Forwarding SMS #91 from Vodafone. to Discord
+2026-01-29 01:25:46,659 - INFO - Successfully forwarded SMS #91 to Discord
+2026-01-29 01:25:46,662 - INFO - ✅ Forwarded message 91 from Vodafone.
+2026-01-29 01:25:46,663 - INFO - Forwarding SMS #90 from BBVA-ES  to Discord
+2026-01-29 01:25:46,875 - INFO - Successfully forwarded SMS #90 to Discord
+2026-01-29 01:25:46,878 - INFO - ✅ Forwarded message 90 from BBVA-ES 
+2026-01-29 01:25:46,879 - INFO - Forwarding SMS #89 from Vodafone. to Discord
+2026-01-29 01:25:47,108 - INFO - Successfully forwarded SMS #89 to Discord
+2026-01-29 01:25:47,110 - INFO - ✅ Forwarded message 89 from Vodafone.
+2026-01-29 01:25:47,110 - INFO - Forwarding SMS #88 from Vodafone. to Discord
+2026-01-29 01:25:47,345 - INFO - Successfully forwarded SMS #88 to Discord
+2026-01-29 01:25:47,346 - INFO - ✅ Forwarded message 88 from Vodafone.
+2026-01-29 01:25:47,348 - INFO - Forwarding SMS #87 from 623596386 to Discord
+2026-01-29 01:25:47,591 - INFO - Successfully forwarded SMS #87 to Discord
+2026-01-29 01:25:47,592 - INFO - ✅ Forwarded message 87 from 623596386
+2026-01-29 01:25:47,593 - INFO - Forwarding SMS #86 from 222177 to Discord
+2026-01-29 01:25:47,945 - INFO - Successfully forwarded SMS #86 to Discord
+2026-01-29 01:25:47,947 - INFO - ✅ Forwarded message 86 from 222177
+2026-01-29 01:25:47,948 - INFO - Forwarding SMS #85 from Vodafone. to Discord
+2026-01-29 01:25:48,145 - WARNING - Rate limited. Waiting 0.461s before retry (attempt 1/3)
+2026-01-29 01:25:48,821 - INFO - Successfully forwarded SMS #85 to Discord
+2026-01-29 01:25:48,823 - INFO - ✅ Forwarded message 85 from Vodafone.
+2026-01-29 01:25:48,823 - INFO - Forwarding SMS #84 from Vodafone. to Discord
+2026-01-29 01:25:49,018 - WARNING - Rate limited. Waiting 0.588s before retry (attempt 1/3)
+2026-01-29 01:25:49,871 - INFO - Successfully forwarded SMS #84 to Discord
+2026-01-29 01:25:49,873 - INFO - ✅ Forwarded message 84 from Vodafone.
+2026-01-29 01:25:49,874 - INFO - ==================================================
+2026-01-29 01:25:49,874 - INFO - 📊 Processing Summary:
+2026-01-29 01:25:49,875 - INFO -   Total messages: 8
+2026-01-29 01:25:49,875 - INFO -   New messages: 8
+2026-01-29 01:25:49,875 - INFO -   Forwarded: 8
+2026-01-29 01:25:49,876 - INFO -   Failed: 0
+2026-01-29 01:25:49,877 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:25:49,877 - INFO - ==================================================
+2026-01-29 01:25:49,877 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:25:50,038 - ERROR - Discord API failed for summary: 429
+2026-01-29 01:46:01,360 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:46:01,361 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:46:01,362 - INFO - Forwarding SMS #83 from Vodafone. to Discord
+2026-01-29 01:46:01,721 - INFO - Successfully forwarded SMS #83 to Discord
+2026-01-29 01:46:01,726 - INFO - ✅ Forwarded message 83 from Vodafone.
+2026-01-29 01:46:01,730 - INFO - Forwarding SMS #82 from MEDISALUD to Discord
+2026-01-29 01:46:02,029 - INFO - Successfully forwarded SMS #82 to Discord
+2026-01-29 01:46:02,038 - INFO - ✅ Forwarded message 82 from MEDISALUD
+2026-01-29 01:46:02,039 - INFO - Forwarding SMS #81 from Vodafone. to Discord
+2026-01-29 01:46:02,354 - INFO - Successfully forwarded SMS #81 to Discord
+2026-01-29 01:46:02,356 - INFO - ✅ Forwarded message 81 from Vodafone.
+2026-01-29 01:46:02,357 - INFO - Forwarding SMS #80 from 628230854 to Discord
+2026-01-29 01:46:02,746 - INFO - Successfully forwarded SMS #80 to Discord
+2026-01-29 01:46:02,749 - INFO - ✅ Forwarded message 80 from 628230854
+2026-01-29 01:46:02,750 - INFO - Forwarding SMS #79 from 222177 to Discord
+2026-01-29 01:46:03,087 - INFO - Successfully forwarded SMS #79 to Discord
+2026-01-29 01:46:03,089 - INFO - ✅ Forwarded message 79 from 222177
+2026-01-29 01:46:03,091 - INFO - Forwarding SMS #78 from Vodafone. to Discord
+2026-01-29 01:46:03,435 - INFO - Successfully forwarded SMS #78 to Discord
+2026-01-29 01:46:03,444 - INFO - ✅ Forwarded message 78 from Vodafone.
+2026-01-29 01:46:03,446 - INFO - Forwarding SMS #77 from 914567570 to Discord
+2026-01-29 01:46:03,807 - INFO - Successfully forwarded SMS #77 to Discord
+2026-01-29 01:46:03,812 - INFO - ✅ Forwarded message 77 from 914567570
+2026-01-29 01:46:03,813 - INFO - Forwarding SMS #76 from 222177 to Discord
+2026-01-29 01:46:03,985 - WARNING - Rate limited. Waiting 0.581s before retry (attempt 1/3)
+2026-01-29 01:46:04,823 - INFO - Successfully forwarded SMS #76 to Discord
+2026-01-29 01:46:04,827 - INFO - ✅ Forwarded message 76 from 222177
+2026-01-29 01:46:04,828 - INFO - ==================================================
+2026-01-29 01:46:04,828 - INFO - 📊 Processing Summary:
+2026-01-29 01:46:04,828 - INFO -   Total messages: 8
+2026-01-29 01:46:04,828 - INFO -   New messages: 8
+2026-01-29 01:46:04,829 - INFO -   Forwarded: 8
+2026-01-29 01:46:04,829 - INFO -   Failed: 0
+2026-01-29 01:46:04,829 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:46:04,829 - INFO - ==================================================
+2026-01-29 01:46:04,829 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:46:04,988 - ERROR - Discord API failed for summary: 429
+2026-01-29 01:49:37,094 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:49:37,095 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:49:37,095 - INFO - Forwarding SMS #83 from Vodafone. to Discord
+2026-01-29 01:49:37,365 - INFO - Successfully forwarded SMS #83 to Discord
+2026-01-29 01:49:37,367 - INFO - ✅ Forwarded message 83 from Vodafone.
+2026-01-29 01:49:37,369 - INFO - Forwarding SMS #82 from MEDISALUD to Discord
+2026-01-29 01:49:37,637 - INFO - Successfully forwarded SMS #82 to Discord
+2026-01-29 01:49:37,639 - INFO - ✅ Forwarded message 82 from MEDISALUD
+2026-01-29 01:49:37,639 - INFO - Forwarding SMS #81 from Vodafone. to Discord
+2026-01-29 01:49:37,967 - INFO - Successfully forwarded SMS #81 to Discord
+2026-01-29 01:49:37,969 - INFO - ✅ Forwarded message 81 from Vodafone.
+2026-01-29 01:49:37,970 - INFO - Forwarding SMS #80 from 628230854 to Discord
+2026-01-29 01:49:38,343 - INFO - Successfully forwarded SMS #80 to Discord
+2026-01-29 01:49:38,347 - INFO - ✅ Forwarded message 80 from 628230854
+2026-01-29 01:49:38,350 - INFO - Forwarding SMS #79 from 222177 to Discord
+2026-01-29 01:49:38,612 - INFO - Successfully forwarded SMS #79 to Discord
+2026-01-29 01:49:38,615 - INFO - ✅ Forwarded message 79 from 222177
+2026-01-29 01:49:38,616 - INFO - Forwarding SMS #78 from Vodafone. to Discord
+2026-01-29 01:49:38,855 - INFO - Successfully forwarded SMS #78 to Discord
+2026-01-29 01:49:38,857 - INFO - ✅ Forwarded message 78 from Vodafone.
+2026-01-29 01:49:38,858 - INFO - Forwarding SMS #77 from 914567570 to Discord
+2026-01-29 01:49:39,062 - WARNING - Rate limited. Waiting 0.3s before retry (attempt 1/3)
+2026-01-29 01:49:39,633 - INFO - Successfully forwarded SMS #77 to Discord
+2026-01-29 01:49:39,640 - INFO - ✅ Forwarded message 77 from 914567570
+2026-01-29 01:49:39,642 - INFO - Forwarding SMS #76 from 222177 to Discord
+2026-01-29 01:49:39,820 - WARNING - Rate limited. Waiting 0.462s before retry (attempt 1/3)
+2026-01-29 01:49:40,649 - INFO - Successfully forwarded SMS #76 to Discord
+2026-01-29 01:49:40,653 - INFO - ✅ Forwarded message 76 from 222177
+2026-01-29 01:49:40,656 - INFO - ==================================================
+2026-01-29 01:49:40,658 - INFO - 📊 Processing Summary:
+2026-01-29 01:49:40,659 - INFO -   Total messages: 8
+2026-01-29 01:49:40,661 - INFO -   New messages: 8
+2026-01-29 01:49:40,665 - INFO -   Forwarded: 8
+2026-01-29 01:49:40,665 - INFO -   Failed: 0
+2026-01-29 01:49:40,665 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:49:40,665 - INFO - ==================================================
+2026-01-29 01:49:40,665 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:49:40,904 - ERROR - Discord API failed for summary: 429
+2026-01-29 01:51:34,731 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:51:34,732 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:51:34,732 - INFO - Forwarding SMS #75 from 621684495 to Discord
+2026-01-29 01:51:34,981 - INFO - Successfully forwarded SMS #75 to Discord
+2026-01-29 01:51:34,982 - INFO - ✅ Forwarded message 75 from 621684495
+2026-01-29 01:51:34,983 - INFO - Forwarding SMS #74 from 222177 to Discord
+2026-01-29 01:51:35,216 - INFO - Successfully forwarded SMS #74 to Discord
+2026-01-29 01:51:35,220 - INFO - ✅ Forwarded message 74 from 222177
+2026-01-29 01:51:35,221 - INFO - Forwarding SMS #73 from 914567570 to Discord
+2026-01-29 01:51:35,466 - INFO - Successfully forwarded SMS #73 to Discord
+2026-01-29 01:51:35,467 - INFO - ✅ Forwarded message 73 from 914567570
+2026-01-29 01:51:35,468 - INFO - Forwarding SMS #72 from 222177 to Discord
+2026-01-29 01:51:35,835 - INFO - Successfully forwarded SMS #72 to Discord
+2026-01-29 01:51:35,837 - INFO - ✅ Forwarded message 72 from 222177
+2026-01-29 01:51:35,838 - INFO - Forwarding SMS #71 from 914567570 to Discord
+2026-01-29 01:51:36,081 - INFO - Successfully forwarded SMS #71 to Discord
+2026-01-29 01:51:36,084 - INFO - ✅ Forwarded message 71 from 914567570
+2026-01-29 01:51:36,085 - INFO - Forwarding SMS #70 from 222177 to Discord
+2026-01-29 01:51:36,331 - INFO - Successfully forwarded SMS #70 to Discord
+2026-01-29 01:51:36,332 - INFO - ✅ Forwarded message 70 from 222177
+2026-01-29 01:51:36,333 - INFO - Forwarding SMS #69 from 621685807 to Discord
+2026-01-29 01:51:36,506 - WARNING - Rate limited. Waiting 0.426s before retry (attempt 1/3)
+2026-01-29 01:51:37,192 - INFO - Successfully forwarded SMS #69 to Discord
+2026-01-29 01:51:37,194 - INFO - ✅ Forwarded message 69 from 621685807
+2026-01-29 01:51:37,194 - INFO - Forwarding SMS #68 from 222177 to Discord
+2026-01-29 01:51:37,354 - WARNING - Rate limited. Waiting 0.577s before retry (attempt 1/3)
+2026-01-29 01:51:38,299 - INFO - Successfully forwarded SMS #68 to Discord
+2026-01-29 01:51:38,301 - INFO - ✅ Forwarded message 68 from 222177
+2026-01-29 01:51:38,305 - INFO - ==================================================
+2026-01-29 01:51:38,305 - INFO - 📊 Processing Summary:
+2026-01-29 01:51:38,306 - INFO -   Total messages: 8
+2026-01-29 01:51:38,306 - INFO -   New messages: 8
+2026-01-29 01:51:38,307 - INFO -   Forwarded: 8
+2026-01-29 01:51:38,307 - INFO -   Failed: 0
+2026-01-29 01:51:38,307 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:51:38,307 - INFO - ==================================================
+2026-01-29 01:51:38,307 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:51:38,474 - ERROR - Discord API failed for summary: 429
+2026-01-29 01:54:35,395 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:54:35,395 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:54:35,395 - INFO - Forwarding SMS #67 from 621683622 to Discord
+2026-01-29 01:54:35,631 - INFO - Successfully forwarded SMS #67 to Discord
+2026-01-29 01:54:35,632 - INFO - ✅ Forwarded message 67 from 621683622
+2026-01-29 01:54:35,640 - INFO - Forwarding SMS #66 from 222177 to Discord
+2026-01-29 01:54:35,864 - INFO - Successfully forwarded SMS #66 to Discord
+2026-01-29 01:54:35,866 - INFO - ✅ Forwarded message 66 from 222177
+2026-01-29 01:54:35,867 - INFO - Forwarding SMS #65 from MEDISALUD to Discord
+2026-01-29 01:54:36,169 - INFO - Successfully forwarded SMS #65 to Discord
+2026-01-29 01:54:36,170 - INFO - ✅ Forwarded message 65 from MEDISALUD
+2026-01-29 01:54:36,170 - INFO - Forwarding SMS #64 from 914567570 to Discord
+2026-01-29 01:54:36,422 - INFO - Successfully forwarded SMS #64 to Discord
+2026-01-29 01:54:36,423 - INFO - ✅ Forwarded message 64 from 914567570
+2026-01-29 01:54:36,424 - INFO - Forwarding SMS #63 from 222177 to Discord
+2026-01-29 01:54:36,704 - INFO - Successfully forwarded SMS #63 to Discord
+2026-01-29 01:54:36,706 - INFO - ✅ Forwarded message 63 from 222177
+2026-01-29 01:54:36,707 - INFO - Forwarding SMS #62 from Vodafone. to Discord
+2026-01-29 01:54:37,005 - INFO - Successfully forwarded SMS #62 to Discord
+2026-01-29 01:54:37,007 - INFO - ✅ Forwarded message 62 from Vodafone.
+2026-01-29 01:54:37,007 - INFO - Forwarding SMS #61 from 672801799 to Discord
+2026-01-29 01:54:37,164 - WARNING - Rate limited. Waiting 0.413s before retry (attempt 1/3)
+2026-01-29 01:54:37,839 - INFO - Successfully forwarded SMS #61 to Discord
+2026-01-29 01:54:37,842 - INFO - ✅ Forwarded message 61 from 672801799
+2026-01-29 01:54:37,843 - INFO - Forwarding SMS #60 from 222177 to Discord
+2026-01-29 01:54:38,083 - WARNING - Rate limited. Waiting 0.518s before retry (attempt 1/3)
+2026-01-29 01:54:38,826 - INFO - Successfully forwarded SMS #60 to Discord
+2026-01-29 01:54:38,828 - INFO - ✅ Forwarded message 60 from 222177
+2026-01-29 01:54:38,829 - INFO - ==================================================
+2026-01-29 01:54:38,829 - INFO - 📊 Processing Summary:
+2026-01-29 01:54:38,829 - INFO -   Total messages: 8
+2026-01-29 01:54:38,830 - INFO -   New messages: 8
+2026-01-29 01:54:38,830 - INFO -   Forwarded: 8
+2026-01-29 01:54:38,830 - INFO -   Failed: 0
+2026-01-29 01:54:38,830 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:54:38,830 - INFO - ==================================================
+2026-01-29 01:54:38,830 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:54:39,046 - ERROR - Discord API failed for summary: 429
+2026-01-29 01:57:30,509 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:57:30,510 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:57:30,510 - INFO - Forwarding SMS #59 from Vodafone. to Discord
+2026-01-29 01:57:30,743 - INFO - Successfully forwarded SMS #59 to Discord
+2026-01-29 01:57:30,744 - INFO - ✅ Forwarded message 59 from Vodafone.
+2026-01-29 01:57:30,744 - INFO - Forwarding SMS #58 from Vodafone. to Discord
+2026-01-29 01:57:30,979 - INFO - Successfully forwarded SMS #58 to Discord
+2026-01-29 01:57:30,982 - INFO - ✅ Forwarded message 58 from Vodafone.
+2026-01-29 01:57:30,983 - INFO - Forwarding SMS #57 from Vodafone. to Discord
+2026-01-29 01:57:31,220 - INFO - Successfully forwarded SMS #57 to Discord
+2026-01-29 01:57:31,222 - INFO - ✅ Forwarded message 57 from Vodafone.
+2026-01-29 01:57:31,224 - INFO - Forwarding SMS #56 from 672828676 to Discord
+2026-01-29 01:57:31,473 - INFO - Successfully forwarded SMS #56 to Discord
+2026-01-29 01:57:31,479 - INFO - ✅ Forwarded message 56 from 672828676
+2026-01-29 01:57:31,480 - INFO - Forwarding SMS #55 from 222177 to Discord
+2026-01-29 01:57:31,734 - INFO - Successfully forwarded SMS #55 to Discord
+2026-01-29 01:57:31,735 - INFO - ✅ Forwarded message 55 from 222177
+2026-01-29 01:57:31,736 - INFO - Forwarding SMS #54 from Vodafone. to Discord
+2026-01-29 01:57:31,954 - INFO - Successfully forwarded SMS #54 to Discord
+2026-01-29 01:57:31,956 - INFO - ✅ Forwarded message 54 from Vodafone.
+2026-01-29 01:57:31,957 - INFO - Forwarding SMS #53 from Vodafone. to Discord
+2026-01-29 01:57:32,110 - WARNING - Rate limited. Waiting 0.577s before retry (attempt 1/3)
+2026-01-29 01:57:33,050 - INFO - Successfully forwarded SMS #53 to Discord
+2026-01-29 01:57:33,053 - INFO - ✅ Forwarded message 53 from Vodafone.
+2026-01-29 01:57:33,054 - INFO - Forwarding SMS #52 from Vodafone to Discord
+2026-01-29 01:57:33,230 - WARNING - Rate limited. Waiting 0.459s before retry (attempt 1/3)
+2026-01-29 01:57:33,923 - INFO - Successfully forwarded SMS #52 to Discord
+2026-01-29 01:57:33,924 - INFO - ✅ Forwarded message 52 from Vodafone
+2026-01-29 01:57:33,926 - INFO - ==================================================
+2026-01-29 01:57:33,926 - INFO - 📊 Processing Summary:
+2026-01-29 01:57:33,927 - INFO -   Total messages: 8
+2026-01-29 01:57:33,927 - INFO -   New messages: 8
+2026-01-29 01:57:33,927 - INFO -   Forwarded: 8
+2026-01-29 01:57:33,927 - INFO -   Failed: 0
+2026-01-29 01:57:33,927 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:57:33,927 - INFO - ==================================================
+2026-01-29 01:57:33,927 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:57:34,115 - ERROR - Discord API failed for summary: 429
+2026-01-29 01:59:16,265 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:59:16,265 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:59:16,265 - INFO - Forwarding SMS #51 from Vodafone. to Discord
+2026-01-29 01:59:16,608 - INFO - Successfully forwarded SMS #51 to Discord
+2026-01-29 01:59:16,610 - INFO - ✅ Forwarded message 51 from Vodafone.
+2026-01-29 01:59:16,611 - INFO - Forwarding SMS #50 from BBVA to Discord
+2026-01-29 01:59:16,847 - INFO - Successfully forwarded SMS #50 to Discord
+2026-01-29 01:59:16,850 - INFO - ✅ Forwarded message 50 from BBVA
+2026-01-29 01:59:16,851 - INFO - Forwarding SMS #49 from 686545720 to Discord
+2026-01-29 01:59:17,086 - INFO - Successfully forwarded SMS #49 to Discord
+2026-01-29 01:59:17,088 - INFO - ✅ Forwarded message 49 from 686545720
+2026-01-29 01:59:17,088 - INFO - Forwarding SMS #48 from 222177 to Discord
+2026-01-29 01:59:17,379 - INFO - Successfully forwarded SMS #48 to Discord
+2026-01-29 01:59:17,381 - INFO - ✅ Forwarded message 48 from 222177
+2026-01-29 01:59:17,381 - INFO - Forwarding SMS #47 from 963112114 to Discord
+2026-01-29 01:59:17,603 - INFO - Successfully forwarded SMS #47 to Discord
+2026-01-29 01:59:17,604 - INFO - ✅ Forwarded message 47 from 963112114
+2026-01-29 01:59:17,605 - INFO - Forwarding SMS #46 from 222177 to Discord
+2026-01-29 01:59:17,854 - INFO - Successfully forwarded SMS #46 to Discord
+2026-01-29 01:59:17,858 - INFO - ✅ Forwarded message 46 from 222177
+2026-01-29 01:59:17,863 - INFO - Forwarding SMS #45 from 963112114 to Discord
+2026-01-29 01:59:18,091 - WARNING - Rate limited. Waiting 0.375s before retry (attempt 1/3)
+2026-01-29 01:59:18,754 - INFO - Successfully forwarded SMS #45 to Discord
+2026-01-29 01:59:18,756 - INFO - ✅ Forwarded message 45 from 963112114
+2026-01-29 01:59:18,756 - INFO - Forwarding SMS #44 from 222177 to Discord
+2026-01-29 01:59:18,921 - WARNING - Rate limited. Waiting 0.539s before retry (attempt 1/3)
+2026-01-29 01:59:19,706 - INFO - Successfully forwarded SMS #44 to Discord
+2026-01-29 01:59:19,708 - INFO - ✅ Forwarded message 44 from 222177
+2026-01-29 01:59:19,709 - INFO - ==================================================
+2026-01-29 01:59:19,709 - INFO - 📊 Processing Summary:
+2026-01-29 01:59:19,709 - INFO -   Total messages: 8
+2026-01-29 01:59:19,709 - INFO -   New messages: 8
+2026-01-29 01:59:19,709 - INFO -   Forwarded: 8
+2026-01-29 01:59:19,710 - INFO -   Failed: 0
+2026-01-29 01:59:19,710 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:59:19,710 - INFO - ==================================================
+2026-01-29 01:59:19,710 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:59:19,867 - ERROR - Discord API failed for summary: 429
+2026-01-29 02:01:06,477 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 02:01:06,477 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 02:01:06,478 - INFO - Forwarding SMS #43 from 600408616 to Discord
+2026-01-29 02:01:06,759 - INFO - Successfully forwarded SMS #43 to Discord
+2026-01-29 02:01:06,761 - INFO - ✅ Forwarded message 43 from 600408616
+2026-01-29 02:01:06,762 - INFO - Forwarding SMS #42 from 222177 to Discord
+2026-01-29 02:01:07,016 - INFO - Successfully forwarded SMS #42 to Discord
+2026-01-29 02:01:07,017 - INFO - ✅ Forwarded message 42 from 222177
+2026-01-29 02:01:07,018 - INFO - Forwarding SMS #41 from 600408616 to Discord
+2026-01-29 02:01:07,303 - INFO - Successfully forwarded SMS #41 to Discord
+2026-01-29 02:01:07,306 - INFO - ✅ Forwarded message 41 from 600408616
+2026-01-29 02:01:07,307 - INFO - Forwarding SMS #40 from 222177 to Discord
+2026-01-29 02:01:07,567 - INFO - Successfully forwarded SMS #40 to Discord
+2026-01-29 02:01:07,569 - INFO - ✅ Forwarded message 40 from 222177
+2026-01-29 02:01:07,570 - INFO - Forwarding SMS #39 from 607764756 to Discord
+2026-01-29 02:01:07,852 - INFO - Successfully forwarded SMS #39 to Discord
+2026-01-29 02:01:07,855 - INFO - ✅ Forwarded message 39 from 607764756
+2026-01-29 02:01:07,857 - INFO - Forwarding SMS #38 from 222177 to Discord
+2026-01-29 02:01:08,118 - INFO - Successfully forwarded SMS #38 to Discord
+2026-01-29 02:01:08,120 - INFO - ✅ Forwarded message 38 from 222177
+2026-01-29 02:01:08,121 - INFO - Forwarding SMS #37 from 607764756 to Discord
+2026-01-29 02:01:08,304 - WARNING - Rate limited. Waiting 0.364s before retry (attempt 1/3)
+2026-01-29 02:01:08,916 - INFO - Successfully forwarded SMS #37 to Discord
+2026-01-29 02:01:08,918 - INFO - ✅ Forwarded message 37 from 607764756
+2026-01-29 02:01:08,919 - INFO - Forwarding SMS #36 from 222177 to Discord
+2026-01-29 02:01:09,121 - WARNING - Rate limited. Waiting 0.548s before retry (attempt 1/3)
+2026-01-29 02:01:09,977 - INFO - Successfully forwarded SMS #36 to Discord
+2026-01-29 02:01:09,980 - INFO - ✅ Forwarded message 36 from 222177
+2026-01-29 02:01:09,981 - INFO - ==================================================
+2026-01-29 02:01:09,981 - INFO - 📊 Processing Summary:
+2026-01-29 02:01:09,981 - INFO -   Total messages: 8
+2026-01-29 02:01:09,981 - INFO -   New messages: 8
+2026-01-29 02:01:09,982 - INFO -   Forwarded: 8
+2026-01-29 02:01:09,982 - INFO -   Failed: 0
+2026-01-29 02:01:09,982 - INFO -   Skipped (already forwarded): 0
+2026-01-29 02:01:09,982 - INFO - ==================================================
+2026-01-29 02:01:09,982 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 02:01:10,219 - ERROR - Discord API failed for summary: 429
+2026-01-29 02:05:27,978 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 02:05:27,978 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 02:05:27,978 - INFO - Consolidated 4 messages from 222177 into summary
+2026-01-29 02:05:27,978 - INFO - Forwarding SMS #37 from 607764756 to Discord
+2026-01-29 02:05:28,228 - INFO - Successfully forwarded SMS #37 to Discord
+2026-01-29 02:05:28,230 - INFO - ✅ Forwarded message 37 from 607764756
+2026-01-29 02:05:28,231 - INFO - Forwarding SMS #39 from 607764756 to Discord
+2026-01-29 02:05:28,583 - INFO - Successfully forwarded SMS #39 to Discord
+2026-01-29 02:05:28,585 - INFO - ✅ Forwarded message 39 from 607764756
+2026-01-29 02:05:28,586 - INFO - Forwarding SMS #41 from 600408616 to Discord
+2026-01-29 02:05:28,897 - INFO - Successfully forwarded SMS #41 to Discord
+2026-01-29 02:05:28,899 - INFO - ✅ Forwarded message 41 from 600408616
+2026-01-29 02:05:28,900 - INFO - Forwarding SMS #43 from 600408616 to Discord
+2026-01-29 02:05:29,399 - INFO - Successfully forwarded SMS #43 to Discord
+2026-01-29 02:05:29,401 - INFO - ✅ Forwarded message 43 from 600408616
+2026-01-29 02:05:29,403 - INFO - Forwarding SMS #222177_summary_36_42 from 222177 (System) to Discord
+2026-01-29 02:05:29,657 - INFO - Successfully forwarded SMS #222177_summary_36_42 to Discord
+2026-01-29 02:05:29,660 - INFO - ✅ Forwarded message 222177_summary_36_42 from 222177 (System)
+2026-01-29 02:05:29,662 - INFO - ==================================================
+2026-01-29 02:05:29,664 - INFO - 📊 Processing Summary:
+2026-01-29 02:05:29,665 - INFO -   Total messages: 8
+2026-01-29 02:05:29,666 - INFO -   New messages: 5
+2026-01-29 02:05:29,667 - INFO -   Forwarded: 5
+2026-01-29 02:05:29,667 - INFO -   Failed: 0
+2026-01-29 02:05:29,668 - INFO -   Skipped (already forwarded): 0
+2026-01-29 02:05:29,669 - INFO - ==================================================
+2026-01-29 02:05:29,670 - INFO - Sending batch summary to Discord: 5/8 forwarded
+2026-01-29 02:05:29,991 - INFO - Successfully sent batch summary to Discord
+2026-01-29 02:08:50,823 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 02:08:50,824 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 02:08:50,824 - INFO - Forwarding SMS #36 from 222177 to Discord
+2026-01-29 02:08:51,064 - INFO - Successfully forwarded SMS #36 to Discord
+2026-01-29 02:08:51,066 - INFO - ✅ Forwarded message 36 from 222177
+2026-01-29 02:08:51,067 - INFO - Forwarding SMS #37 from 607764756 to Discord
+2026-01-29 02:08:51,312 - INFO - Successfully forwarded SMS #37 to Discord
+2026-01-29 02:08:51,314 - INFO - ✅ Forwarded message 37 from 607764756
+2026-01-29 02:08:51,318 - INFO - Forwarding SMS #38 from 222177 to Discord
+2026-01-29 02:08:51,555 - INFO - Successfully forwarded SMS #38 to Discord
+2026-01-29 02:08:51,560 - INFO - ✅ Forwarded message 38 from 222177
+2026-01-29 02:08:51,562 - INFO - Forwarding SMS #39 from 607764756 to Discord
+2026-01-29 02:08:51,858 - INFO - Successfully forwarded SMS #39 to Discord
+2026-01-29 02:08:51,863 - INFO - ✅ Forwarded message 39 from 607764756
+2026-01-29 02:08:51,864 - INFO - Forwarding SMS #40 from 222177 to Discord
+2026-01-29 02:08:52,228 - INFO - Successfully forwarded SMS #40 to Discord
+2026-01-29 02:08:52,231 - INFO - ✅ Forwarded message 40 from 222177
+2026-01-29 02:08:52,232 - INFO - Forwarding SMS #41 from 600408616 to Discord
+2026-01-29 02:08:52,647 - INFO - Successfully forwarded SMS #41 to Discord
+2026-01-29 02:08:52,649 - INFO - ✅ Forwarded message 41 from 600408616
+2026-01-29 02:08:52,650 - INFO - Forwarding SMS #42 from 222177 to Discord
+2026-01-29 02:08:52,851 - WARNING - Rate limited. Waiting 0.3s before retry (attempt 1/3)
+2026-01-29 02:08:53,418 - INFO - Successfully forwarded SMS #42 to Discord
+2026-01-29 02:08:53,421 - INFO - ✅ Forwarded message 42 from 222177
+2026-01-29 02:08:53,422 - INFO - Forwarding SMS #43 from 600408616 to Discord
+2026-01-29 02:08:53,614 - WARNING - Rate limited. Waiting 0.395s before retry (attempt 1/3)
+2026-01-29 02:08:54,230 - INFO - Successfully forwarded SMS #43 to Discord
+2026-01-29 02:08:54,233 - INFO - ✅ Forwarded message 43 from 600408616
+2026-01-29 02:08:54,235 - INFO - ==================================================
+2026-01-29 02:08:54,235 - INFO - 📊 Processing Summary:
+2026-01-29 02:08:54,235 - INFO -   Total messages: 8
+2026-01-29 02:08:54,235 - INFO -   New messages: 8
+2026-01-29 02:08:54,235 - INFO -   Forwarded: 8
+2026-01-29 02:08:54,235 - INFO -   Failed: 0
+2026-01-29 02:08:54,235 - INFO -   Skipped (already forwarded): 0
+2026-01-29 02:08:54,235 - INFO - ==================================================
+2026-01-29 02:08:54,236 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 02:08:54,408 - ERROR - Discord API failed for summary: 429
+2026-01-29 02:09:28,183 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 02:09:28,184 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 02:09:28,184 - INFO - Consolidated 4 messages from 222177 into summary
+2026-01-29 02:09:28,184 - INFO - Consolidated 2 messages from 607764756 into summary
+2026-01-29 02:09:28,184 - INFO - Consolidated 2 messages from 600408616 into summary
+2026-01-29 02:09:28,184 - INFO - Forwarding SMS #summary_222177_36_42 from 222177 (4 messages) to Discord
+2026-01-29 02:09:28,485 - INFO - Successfully forwarded SMS #summary_222177_36_42 to Discord
+2026-01-29 02:09:28,486 - INFO - ✅ Forwarded message summary_222177_36_42 from 222177 (4 messages)
+2026-01-29 02:09:28,487 - INFO - Forwarding SMS #summary_607764756_37_39 from 607764756 (2 messages) to Discord
+2026-01-29 02:09:28,748 - INFO - Successfully forwarded SMS #summary_607764756_37_39 to Discord
+2026-01-29 02:09:28,750 - INFO - ✅ Forwarded message summary_607764756_37_39 from 607764756 (2 messages)
+2026-01-29 02:09:28,751 - INFO - Forwarding SMS #summary_600408616_41_43 from 600408616 (2 messages) to Discord
+2026-01-29 02:09:29,042 - INFO - Successfully forwarded SMS #summary_600408616_41_43 to Discord
+2026-01-29 02:09:29,044 - INFO - ✅ Forwarded message summary_600408616_41_43 from 600408616 (2 messages)
+2026-01-29 02:09:29,047 - INFO - ==================================================
+2026-01-29 02:09:29,048 - INFO - 📊 Processing Summary:
+2026-01-29 02:09:29,048 - INFO -   Total messages: 8
+2026-01-29 02:09:29,048 - INFO -   New messages: 3
+2026-01-29 02:09:29,049 - INFO -   Forwarded: 3
+2026-01-29 02:09:29,049 - INFO -   Failed: 0
+2026-01-29 02:09:29,050 - INFO -   Skipped (already forwarded): 0
+2026-01-29 02:09:29,050 - INFO - ==================================================
+2026-01-29 02:09:29,051 - INFO - Sending batch summary to Discord: 3/8 forwarded
+2026-01-29 02:09:29,414 - INFO - Successfully sent batch summary to Discord
+2026-01-29 02:10:06,342 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 02:10:06,347 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 02:10:06,347 - INFO - Consolidated 2 messages from 222177 into summary
+2026-01-29 02:10:06,347 - INFO - Consolidated 4 messages from Vodafone into summary
+2026-01-29 02:10:06,348 - INFO - Forwarding SMS #summary_222177_28_34 from 222177 (2 messages) to Discord
+2026-01-29 02:10:06,783 - INFO - Successfully forwarded SMS #summary_222177_28_34 to Discord
+2026-01-29 02:10:06,786 - INFO - ✅ Forwarded message summary_222177_28_34 from 222177 (2 messages)
+2026-01-29 02:10:06,788 - INFO - Forwarding SMS #29 from 607123000 to Discord
+2026-01-29 02:10:07,152 - INFO - Successfully forwarded SMS #29 to Discord
+2026-01-29 02:10:07,162 - INFO - ✅ Forwarded message 29 from 607123000
+2026-01-29 02:10:07,166 - INFO - Forwarding SMS #summary_Vodafone_30_33 from Vodafone (4 messages) to Discord
+2026-01-29 02:10:07,503 - INFO - Successfully forwarded SMS #summary_Vodafone_30_33 to Discord
+2026-01-29 02:10:07,516 - INFO - ✅ Forwarded message summary_Vodafone_30_33 from Vodafone (4 messages)
+2026-01-29 02:10:07,521 - INFO - Forwarding SMS #35 from 607764756 to Discord
+2026-01-29 02:10:07,920 - INFO - Successfully forwarded SMS #35 to Discord
+2026-01-29 02:10:07,927 - INFO - ✅ Forwarded message 35 from 607764756
+2026-01-29 02:10:07,928 - INFO - ==================================================
+2026-01-29 02:10:07,932 - INFO - 📊 Processing Summary:
+2026-01-29 02:10:07,932 - INFO -   Total messages: 8
+2026-01-29 02:10:07,932 - INFO -   New messages: 4
+2026-01-29 02:10:07,932 - INFO -   Forwarded: 4
+2026-01-29 02:10:07,932 - INFO -   Failed: 0
+2026-01-29 02:10:07,932 - INFO -   Skipped (already forwarded): 0
+2026-01-29 02:10:07,932 - INFO - ==================================================
+2026-01-29 02:10:07,932 - INFO - Sending batch summary to Discord: 4/8 forwarded
+2026-01-29 02:10:08,541 - INFO - Successfully sent batch summary to Discord
+2026-01-29 02:12:40,166 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 02:12:40,167 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 02:12:40,167 - INFO - Consolidated 2 messages from 222177 into summary
+2026-01-29 02:12:40,167 - INFO - Consolidated 3 messages from 963112114 into summary
+2026-01-29 02:12:40,167 - INFO - Consolidated 2 messages from Vodafone into summary
+2026-01-29 02:12:40,167 - INFO - Forwarding SMS #summary_222177_20_23 from 222177 (2 messages) to Discord
+2026-01-29 02:12:40,781 - INFO - Successfully forwarded SMS #summary_222177_20_23 to Discord
+2026-01-29 02:12:40,782 - INFO - ✅ Forwarded message summary_222177_20_23 from 222177 (2 messages)
+2026-01-29 02:12:40,783 - INFO - Forwarding SMS #summary_963112114_21_24 from 963112114 (3 messages) to Discord
+2026-01-29 02:12:41,123 - INFO - Successfully forwarded SMS #summary_963112114_21_24 to Discord
+2026-01-29 02:12:41,124 - INFO - ✅ Forwarded message summary_963112114_21_24 from 963112114 (3 messages)
+2026-01-29 02:12:41,124 - INFO - Forwarding SMS #summary_Vodafone_25_27 from Vodafone (2 messages) to Discord
+2026-01-29 02:12:41,347 - INFO - Successfully forwarded SMS #summary_Vodafone_25_27 to Discord
+2026-01-29 02:12:41,349 - INFO - ✅ Forwarded message summary_Vodafone_25_27 from Vodafone (2 messages)
+2026-01-29 02:12:41,350 - INFO - Forwarding SMS #26 from VODAFONE to Discord
+2026-01-29 02:12:41,586 - INFO - Successfully forwarded SMS #26 to Discord
+2026-01-29 02:12:41,588 - INFO - ✅ Forwarded message 26 from VODAFONE
+2026-01-29 02:12:41,589 - INFO - ==================================================
+2026-01-29 02:12:41,589 - INFO - 📊 Processing Summary:
+2026-01-29 02:12:41,589 - INFO -   Total messages: 8
+2026-01-29 02:12:41,590 - INFO -   New messages: 4
+2026-01-29 02:12:41,590 - INFO -   Forwarded: 4
+2026-01-29 02:12:41,590 - INFO -   Failed: 0
+2026-01-29 02:12:41,591 - INFO -   Skipped (already forwarded): 0
+2026-01-29 02:12:41,592 - INFO - ==================================================
+2026-01-29 02:12:41,592 - INFO - Sending batch summary to Discord: 4/8 forwarded
+2026-01-29 02:12:41,847 - INFO - Successfully sent batch summary to Discord
+2026-01-29 02:17:17,031 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 02:17:17,032 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 02:17:17,032 - INFO - Consolidated 2 messages from 222177 into summary
+2026-01-29 02:17:17,032 - INFO - Consolidated 3 messages from 963112114 into summary
+2026-01-29 02:17:17,033 - INFO - Consolidated 2 messages from Vodafone into summary
+2026-01-29 02:17:17,033 - INFO - Forwarding SMS #summary_222177_20_23 from 222177 (2 messages) to Discord
+2026-01-29 02:17:17,530 - INFO - Successfully forwarded SMS #summary_222177_20_23 to Discord
+2026-01-29 02:17:17,536 - INFO - ✅ Forwarded message summary_222177_20_23 from 222177 (2 messages)
+2026-01-29 02:17:17,538 - INFO - Forwarding SMS #summary_963112114_21_24 from 963112114 (3 messages) to Discord
+2026-01-29 02:17:17,879 - INFO - Successfully forwarded SMS #summary_963112114_21_24 to Discord
+2026-01-29 02:17:17,883 - INFO - ✅ Forwarded message summary_963112114_21_24 from 963112114 (3 messages)
+2026-01-29 02:17:17,885 - INFO - Forwarding SMS #summary_Vodafone_25_27 from Vodafone (2 messages) to Discord
+2026-01-29 02:17:18,338 - INFO - Successfully forwarded SMS #summary_Vodafone_25_27 to Discord
+2026-01-29 02:17:18,340 - INFO - ✅ Forwarded message summary_Vodafone_25_27 from Vodafone (2 messages)
+2026-01-29 02:17:18,341 - INFO - Forwarding SMS #26 from VODAFONE to Discord
+2026-01-29 02:17:18,742 - INFO - Successfully forwarded SMS #26 to Discord
+2026-01-29 02:17:18,744 - INFO - ✅ Forwarded message 26 from VODAFONE
+2026-01-29 02:17:18,747 - INFO - ==================================================
+2026-01-29 02:17:18,750 - INFO - 📊 Processing Summary:
+2026-01-29 02:17:18,750 - INFO -   Total messages: 8
+2026-01-29 02:17:18,750 - INFO -   New messages: 4
+2026-01-29 02:17:18,750 - INFO -   Forwarded: 4
+2026-01-29 02:17:18,750 - INFO -   Failed: 0
+2026-01-29 02:17:18,750 - INFO -   Skipped (already forwarded): 0
+2026-01-29 02:17:18,750 - INFO - ==================================================
+2026-01-29 02:17:18,750 - INFO - Sending batch summary to Discord: 4/8 forwarded
+2026-01-29 02:17:19,099 - INFO - Successfully sent batch summary to Discord
+2026-01-29 09:56:07,198 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 09:56:07,199 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 09:56:07,199 - INFO - Consolidated 2 messages from 222177 into summary
+2026-01-29 09:56:07,199 - INFO - Consolidated 2 messages from 963112114 into summary
+2026-01-29 09:56:07,199 - INFO - Forwarding SMS #summary_222177_12_15 from 222177 (2 messages) to Discord
+2026-01-29 09:56:07,488 - INFO - Successfully forwarded SMS #summary_222177_12_15 to Discord
+2026-01-29 09:56:07,489 - INFO - ✅ Forwarded message summary_222177_12_15 from 222177 (2 messages)
+2026-01-29 09:56:07,490 - INFO - Forwarding SMS #13 from 865611216 to Discord
+2026-01-29 09:56:07,882 - INFO - Successfully forwarded SMS #13 to Discord
+2026-01-29 09:56:07,884 - INFO - ✅ Forwarded message 13 from 865611216
+2026-01-29 09:56:07,885 - INFO - Forwarding SMS #14 from Vodafone. to Discord
+2026-01-29 09:56:08,115 - INFO - Successfully forwarded SMS #14 to Discord
+2026-01-29 09:56:08,117 - INFO - ✅ Forwarded message 14 from Vodafone.
+2026-01-29 09:56:08,119 - INFO - Forwarding SMS #16 from 699483030 to Discord
+2026-01-29 09:56:08,388 - INFO - Successfully forwarded SMS #16 to Discord
+2026-01-29 09:56:08,389 - INFO - ✅ Forwarded message 16 from 699483030
+2026-01-29 09:56:08,390 - INFO - Forwarding SMS #17 from Vodafone to Discord
+2026-01-29 09:56:08,716 - INFO - Successfully forwarded SMS #17 to Discord
+2026-01-29 09:56:08,719 - INFO - ✅ Forwarded message 17 from Vodafone
+2026-01-29 09:56:08,720 - INFO - Forwarding SMS #summary_963112114_18_19 from 963112114 (2 messages) to Discord
+2026-01-29 09:56:09,000 - INFO - Successfully forwarded SMS #summary_963112114_18_19 to Discord
+2026-01-29 09:56:09,003 - INFO - ✅ Forwarded message summary_963112114_18_19 from 963112114 (2 messages)
+2026-01-29 09:56:09,004 - INFO - ==================================================
+2026-01-29 09:56:09,004 - INFO - 📊 Processing Summary:
+2026-01-29 09:56:09,004 - INFO -   Total messages: 8
+2026-01-29 09:56:09,004 - INFO -   New messages: 6
+2026-01-29 09:56:09,005 - INFO -   Forwarded: 6
+2026-01-29 09:56:09,005 - INFO -   Failed: 0
+2026-01-29 09:56:09,005 - INFO -   Skipped (already forwarded): 0
+2026-01-29 09:56:09,006 - INFO - ==================================================
+2026-01-29 09:56:09,006 - INFO - Sending batch summary to Discord: 6/8 forwarded
+2026-01-29 09:56:09,205 - ERROR - Discord API failed for summary: 429
+2026-01-29 09:59:37,331 - INFO - Loaded 6 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 09:59:37,332 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 09:59:37,332 - INFO - Consolidated 2 messages from 222177 into summary
+2026-01-29 09:59:37,332 - INFO - Consolidated 2 messages from 607103000 into summary
+2026-01-29 09:59:37,332 - INFO - Consolidated 2 messages from Vodafone into summary
+2026-01-29 09:59:37,332 - INFO - Forwarding SMS #summary_222177_1_2 from 222177 (2 messages) to Discord
+2026-01-29 09:59:37,581 - INFO - Successfully forwarded SMS #summary_222177_1_2 to Discord
+2026-01-29 09:59:37,584 - INFO - ✅ Forwarded message summary_222177_1_2 from 222177 (2 messages)
+2026-01-29 09:59:37,585 - INFO - Forwarding SMS #summary_607103000_3_9 from 607103000 (2 messages) to Discord
+2026-01-29 09:59:38,075 - INFO - Successfully forwarded SMS #summary_607103000_3_9 to Discord
+2026-01-29 09:59:38,078 - INFO - ✅ Forwarded message summary_607103000_3_9 from 607103000 (2 messages)
+2026-01-29 09:59:38,079 - INFO - Forwarding SMS #summary_Vodafone_10_11 from Vodafone (2 messages) to Discord
+2026-01-29 09:59:38,477 - INFO - Successfully forwarded SMS #summary_Vodafone_10_11 to Discord
+2026-01-29 09:59:38,481 - INFO - ✅ Forwarded message summary_Vodafone_10_11 from Vodafone (2 messages)
+2026-01-29 09:59:38,483 - INFO - ==================================================
+2026-01-29 09:59:38,483 - INFO - 📊 Processing Summary:
+2026-01-29 09:59:38,483 - INFO -   Total messages: 6
+2026-01-29 09:59:38,483 - INFO -   New messages: 3
+2026-01-29 09:59:38,483 - INFO -   Forwarded: 3
+2026-01-29 09:59:38,483 - INFO -   Failed: 0
+2026-01-29 09:59:38,483 - INFO -   Skipped (already forwarded): 0
+2026-01-29 09:59:38,484 - INFO - ==================================================
+2026-01-29 09:59:38,484 - INFO - Sending batch summary to Discord: 3/6 forwarded
+2026-01-29 09:59:38,799 - INFO - Successfully sent batch summary to Discord

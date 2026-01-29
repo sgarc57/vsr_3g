@@ -1,0 +1,6 @@
+*.idea*
+*.venv*
+*.windsurf*
+*node_modules*
+*venv*
+*pycache*

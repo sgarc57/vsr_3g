@@ -1,0 +1,3625 @@
+[2026-01-29 00:14:21] ==========================================
+[2026-01-29 00:14:21] Starting SMS auto-forward cron job
+[2026-01-29 00:14:21] ⚠️  Messages file is stale (323s old). Please update via browser console.
+[2026-01-29 00:14:21] Processing messages...
+2026-01-29 00:14:21,778 - ERROR - Discord configuration required!
+2026-01-29 00:14:21,779 - ERROR - Set DISCORD_WEBHOOK or (DISCORD_BOT_TOKEN + DISCORD_CHANNEL_ID)
+[2026-01-29 00:14:21] ✅ Processing completed successfully
+[2026-01-29 00:14:21] Generating deletion script...
+2026-01-29 00:14:21,945 - INFO - Generated deletion script for 8 messages
+2026-01-29 00:14:21,945 - INFO - Script saved to: /home/sgarcia/vsr_3g/scripts/data/delete_messages.js
+[2026-01-29 00:14:21] 📝 Deletion script generated: /home/sgarcia/vsr_3g/scripts/data/delete_messages.js
+[2026-01-29 00:14:21] To delete forwarded messages, execute this in browser console:
+[2026-01-29 00:14:21]    Copy contents of: /home/sgarcia/vsr_3g/scripts/data/delete_messages.js
+[2026-01-29 00:14:21] Cron job completed
+[2026-01-29 00:14:21] ==========================================
+[2026-01-29 00:14:43] ==========================================
+[2026-01-29 00:14:43] Starting SMS auto-forward cron job
+[2026-01-29 00:14:43] ⚠️  Messages file is stale (345s old). Please update via browser console.
+[2026-01-29 00:14:43] Processing messages...
+2026-01-29 00:14:43,942 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:14:43,943 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:14:43,943 - INFO - ==================================================
+2026-01-29 00:14:43,943 - INFO - 📊 Processing Summary:
+2026-01-29 00:14:43,943 - INFO -   Total messages: 8
+2026-01-29 00:14:43,943 - INFO -   New messages: 0
+2026-01-29 00:14:43,943 - INFO -   Forwarded: 0
+2026-01-29 00:14:43,943 - INFO -   Failed: 0
+2026-01-29 00:14:43,943 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:14:43,943 - INFO - ==================================================
+[2026-01-29 00:14:44] ✅ Processing completed successfully
+[2026-01-29 00:14:44] Generating deletion script...
+2026-01-29 00:14:44,106 - INFO - Generated deletion script for 8 messages
+2026-01-29 00:14:44,106 - INFO - Script saved to: /home/sgarcia/vsr_3g/scripts/data/delete_messages.js
+[2026-01-29 00:14:44] 📝 Deletion script generated: /home/sgarcia/vsr_3g/scripts/data/delete_messages.js
+[2026-01-29 00:14:44] To delete forwarded messages, execute this in browser console:
+[2026-01-29 00:14:44]    Copy contents of: /home/sgarcia/vsr_3g/scripts/data/delete_messages.js
+[2026-01-29 00:14:44] Cron job completed
+[2026-01-29 00:14:44] ==========================================
+[2026-01-29 00:23:38] ==========================================
+[2026-01-29 00:23:38] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 00:23:38] Step 1: Retrieving SMS messages from modem...
+node:internal/modules/cjs/loader:1450
+  throw err;
+  ^
+
+Error: Cannot find module 'puppeteer'
+Require stack:
+- /home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1447:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1233:25)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1547:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:13:19)
+    at Module._compile (node:internal/modules/cjs/loader:1803:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js' ]
+}
+
+Node.js v25.4.0
+[2026-01-29 00:23:38] ✅ SMS retrieval completed
+[2026-01-29 00:23:38] Step 2: Forwarding new messages to Discord...
+2026-01-29 00:23:38,854 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:23:38,854 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:23:38,855 - INFO - ==================================================
+2026-01-29 00:23:38,855 - INFO - 📊 Processing Summary:
+2026-01-29 00:23:38,855 - INFO -   Total messages: 8
+2026-01-29 00:23:38,855 - INFO -   New messages: 0
+2026-01-29 00:23:38,855 - INFO -   Forwarded: 0
+2026-01-29 00:23:38,855 - INFO -   Failed: 0
+2026-01-29 00:23:38,855 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:23:38,855 - INFO - ==================================================
+[2026-01-29 00:23:38] ✅ Forwarding completed successfully
+[2026-01-29 00:23:38] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 00:23:38] ==========================================
+[2026-01-29 00:35:06] ==========================================
+[2026-01-29 00:35:06] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 00:35:06] Step 1: Retrieving SMS messages from modem...
+node:internal/modules/cjs/loader:1450
+  throw err;
+  ^
+
+Error: Cannot find module 'puppeteer'
+Require stack:
+- /home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1447:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1233:25)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1547:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:13:19)
+    at Module._compile (node:internal/modules/cjs/loader:1803:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js' ]
+}
+
+Node.js v25.4.0
+[2026-01-29 00:35:06] ✅ SMS retrieval completed
+[2026-01-29 00:35:06] Step 2: Forwarding new messages to Discord...
+2026-01-29 00:35:06,524 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:35:06,525 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:35:06,527 - INFO - ==================================================
+2026-01-29 00:35:06,528 - INFO - 📊 Processing Summary:
+2026-01-29 00:35:06,529 - INFO -   Total messages: 8
+2026-01-29 00:35:06,530 - INFO -   New messages: 0
+2026-01-29 00:35:06,531 - INFO -   Forwarded: 0
+2026-01-29 00:35:06,533 - INFO -   Failed: 0
+2026-01-29 00:35:06,534 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:35:06,536 - INFO - ==================================================
+[2026-01-29 00:35:06] ✅ Forwarding completed successfully
+[2026-01-29 00:35:06] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 00:35:06] ==========================================
+[2026-01-29 00:35:42] ==========================================
+[2026-01-29 00:35:42] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 00:35:42] Step 1: Retrieving SMS messages from modem...
+[2026-01-28T23:35:43.120Z] Starting SMS retrieval...
+Modem URL: http://192.168.7.1/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Navigating to modem...
+[2026-01-29 00:35:51] ❌ SMS retrieval failed
+[2026-01-29 00:52:21] ==========================================
+[2026-01-29 00:52:21] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 00:52:21] Step 1: Retrieving SMS messages from modem...
+[2026-01-28T23:52:21.523Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": false,
+  "hasBody": true,
+  "bodyText": "English\nForgot password?\nLog In\nLog In with TP-Link ID\nTL-MR6400\nApp\n300Mbps Wireless N 4G LTE Router\nOnly one device can log in at a time. Do you want to continue and force the other device to log of"
+}
+JavaScript not loaded yet, waiting...
+⚠️  Timeout waiting for $.act, will try to proceed anyway
+✅ Login completed
+Retrieving SMS messages...
+Waiting for JavaScript libraries to load...
+⚠️  Timeout waiting for libraries, will try anyway...
+❌ Error: jQuery or $.act not available
+pptr:evaluate;retrieveSMS%20(%2Fhome%2Fsgarcia%2Fvsr_3g%2Fscripts%2Fpuppeteer_sms_retriever.js%3A120%3A33):6:28
+Error: jQuery or $.act not available
+pptr:evaluate;retrieveSMS%20(%2Fhome%2Fsgarcia%2Fvsr_3g%2Fscripts%2Fpuppeteer_sms_retriever.js%3A120%3A33):6:28
+    at evaluate (evaluate at retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:33), <anonymous>:5:27)
+    at evaluate (evaluate at retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:33), <anonymous>:1:15)
+    at #evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:222:56)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ExecutionContext.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)
+    at async IsolatedWorld.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)
+    at async CdpFrame.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)
+    at async CdpPage.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)
+    at async retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:22)
+    at async main (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:250:26)
+[2026-01-29 00:52:59] ✅ SMS retrieval completed
+[2026-01-29 00:52:59] Step 2: Forwarding new messages to Discord...
+2026-01-29 00:52:59,793 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:52:59,793 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:52:59,794 - INFO - ==================================================
+2026-01-29 00:52:59,794 - INFO - 📊 Processing Summary:
+2026-01-29 00:52:59,794 - INFO -   Total messages: 8
+2026-01-29 00:52:59,794 - INFO -   New messages: 0
+2026-01-29 00:52:59,794 - INFO -   Forwarded: 0
+2026-01-29 00:52:59,794 - INFO -   Failed: 0
+2026-01-29 00:52:59,794 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:52:59,794 - INFO - ==================================================
+[2026-01-29 00:52:59] ✅ Forwarding completed successfully
+[2026-01-29 00:52:59] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 00:52:59] ==========================================
+[2026-01-29 00:55:36] ==========================================
+[2026-01-29 00:55:36] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 00:55:36] Step 1: Retrieving SMS messages from modem...
+[2026-01-28T23:55:36.633Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+❌ Error: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3080/
+Error: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3080/
+    at navigate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:170:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Deferred.race (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:31:20)
+    at async CdpFrame.goto (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:136:25)
+    at async CdpPage.goto (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:603:20)
+    at async loginToModem (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:59:5)
+    at async main (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:247:9)
+[2026-01-29 00:55:37] ✅ SMS retrieval completed
+[2026-01-29 00:55:37] Step 2: Forwarding new messages to Discord...
+2026-01-29 00:55:37,283 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:55:37,283 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:55:37,283 - INFO - ==================================================
+2026-01-29 00:55:37,283 - INFO - 📊 Processing Summary:
+2026-01-29 00:55:37,283 - INFO -   Total messages: 8
+2026-01-29 00:55:37,283 - INFO -   New messages: 0
+2026-01-29 00:55:37,283 - INFO -   Forwarded: 0
+2026-01-29 00:55:37,283 - INFO -   Failed: 0
+2026-01-29 00:55:37,283 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:55:37,283 - INFO - ==================================================
+[2026-01-29 00:55:37] ✅ Forwarding completed successfully
+[2026-01-29 00:55:37] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 00:55:37] ==========================================
+[2026-01-29 00:55:56] ==========================================
+[2026-01-29 00:55:56] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 00:55:56] Step 1: Retrieving SMS messages from modem...
+[2026-01-28T23:55:57.251Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": false,
+  "hasBody": true,
+  "bodyText": "English\nForgot password?\nLog In\nLog In with TP-Link ID\nTL-MR6400\nApp\n300Mbps Wireless N 4G LTE Router\nOnly one device can log in at a time. Do you want to continue and force the other device to log of"
+}
+JavaScript not loaded yet, waiting...
+⚠️  Timeout waiting for $.act, will try to proceed anyway
+✅ Login completed
+Retrieving SMS messages...
+Waiting for JavaScript libraries to load...
+⚠️  Timeout waiting for libraries, will try anyway...
+❌ Error: jQuery or $.act not available
+pptr:evaluate;retrieveSMS%20(%2Fhome%2Fsgarcia%2Fvsr_3g%2Fscripts%2Fpuppeteer_sms_retriever.js%3A120%3A33):6:28
+Error: jQuery or $.act not available
+pptr:evaluate;retrieveSMS%20(%2Fhome%2Fsgarcia%2Fvsr_3g%2Fscripts%2Fpuppeteer_sms_retriever.js%3A120%3A33):6:28
+    at evaluate (evaluate at retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:33), <anonymous>:5:27)
+    at evaluate (evaluate at retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:33), <anonymous>:1:15)
+    at #evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:222:56)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ExecutionContext.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)
+    at async IsolatedWorld.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)
+    at async CdpFrame.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)
+    at async CdpPage.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)
+    at async retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:22)
+    at async main (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:250:26)
+[2026-01-29 00:56:34] ✅ SMS retrieval completed
+[2026-01-29 00:56:34] Step 2: Forwarding new messages to Discord...
+2026-01-29 00:56:35,119 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:56:35,120 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:56:35,120 - INFO - ==================================================
+2026-01-29 00:56:35,120 - INFO - 📊 Processing Summary:
+2026-01-29 00:56:35,120 - INFO -   Total messages: 8
+2026-01-29 00:56:35,120 - INFO -   New messages: 0
+2026-01-29 00:56:35,120 - INFO -   Forwarded: 0
+2026-01-29 00:56:35,120 - INFO -   Failed: 0
+2026-01-29 00:56:35,120 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:56:35,120 - INFO - ==================================================
+[2026-01-29 00:56:35] ✅ Forwarding completed successfully
+[2026-01-29 00:56:35] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 00:56:35] ==========================================
+[2026-01-29 00:59:16] ==========================================
+[2026-01-29 00:59:16] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 00:59:16] Step 1: Retrieving SMS messages from modem...
+[2026-01-28T23:59:17.093Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": false,
+  "hasBody": true,
+  "bodyText": "English\nForgot password?\nLog In\nLog In with TP-Link ID\nTL-MR6400\nApp\n300Mbps Wireless N 4G LTE Router\nOnly one device can log in at a time. Do you want to continue and force the other device to log of"
+}
+JavaScript not loaded yet, waiting...
+⚠️  Timeout waiting for $.act, will try to proceed anyway
+✅ Login completed
+Retrieving SMS messages...
+Waiting for JavaScript libraries to load...
+⚠️  Timeout waiting for libraries, will try anyway...
+❌ Error: jQuery or $.act not available
+pptr:evaluate;retrieveSMS%20(%2Fhome%2Fsgarcia%2Fvsr_3g%2Fscripts%2Fpuppeteer_sms_retriever.js%3A120%3A33):6:28
+Error: jQuery or $.act not available
+pptr:evaluate;retrieveSMS%20(%2Fhome%2Fsgarcia%2Fvsr_3g%2Fscripts%2Fpuppeteer_sms_retriever.js%3A120%3A33):6:28
+    at evaluate (evaluate at retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:33), <anonymous>:5:27)
+    at evaluate (evaluate at retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:33), <anonymous>:1:15)
+    at #evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:222:56)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ExecutionContext.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)
+    at async IsolatedWorld.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)
+    at async CdpFrame.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)
+    at async CdpPage.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)
+    at async retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:22)
+    at async main (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:250:26)
+[2026-01-29 00:59:54] ✅ SMS retrieval completed
+[2026-01-29 00:59:54] Step 2: Forwarding new messages to Discord...
+2026-01-29 00:59:54,983 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 00:59:54,983 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 00:59:54,983 - INFO - ==================================================
+2026-01-29 00:59:54,983 - INFO - 📊 Processing Summary:
+2026-01-29 00:59:54,984 - INFO -   Total messages: 8
+2026-01-29 00:59:54,984 - INFO -   New messages: 0
+2026-01-29 00:59:54,984 - INFO -   Forwarded: 0
+2026-01-29 00:59:54,984 - INFO -   Failed: 0
+2026-01-29 00:59:54,984 - INFO -   Skipped (already forwarded): 8
+2026-01-29 00:59:54,984 - INFO - ==================================================
+[2026-01-29 00:59:55] ✅ Forwarding completed successfully
+[2026-01-29 00:59:55] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 00:59:55] ==========================================
+[2026-01-29 01:03:19] ==========================================
+[2026-01-29 01:03:19] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:03:19] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:03:20.024Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: false
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": false,
+  "hasBody": true,
+  "bodyText": "English\nForgot password?\nLog In\nLog In with TP-Link ID\nTL-MR6400\nApp\n300Mbps Wireless N 4G LTE Router\nOnly one device can log in at a time. Do you want to continue and force the other device to log of"
+}
+JavaScript not loaded yet, waiting...
+⚠️  Timeout waiting for $.act, will try to proceed anyway
+✅ Login completed
+Retrieving SMS messages...
+Waiting for JavaScript libraries to load...
+⚠️  Timeout waiting for libraries, will try anyway...
+❌ Error: jQuery or $.act not available
+pptr:evaluate;retrieveSMS%20(%2Fhome%2Fsgarcia%2Fvsr_3g%2Fscripts%2Fpuppeteer_sms_retriever.js%3A120%3A33):6:28
+Error: jQuery or $.act not available
+pptr:evaluate;retrieveSMS%20(%2Fhome%2Fsgarcia%2Fvsr_3g%2Fscripts%2Fpuppeteer_sms_retriever.js%3A120%3A33):6:28
+    at evaluate (evaluate at retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:33), <anonymous>:5:27)
+    at evaluate (evaluate at retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:33), <anonymous>:1:15)
+    at #evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:222:56)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ExecutionContext.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)
+    at async IsolatedWorld.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)
+    at async CdpFrame.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)
+    at async CdpPage.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)
+    at async retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:120:22)
+    at async main (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:250:26)
+[2026-01-29 01:04:13] ✅ SMS retrieval completed
+[2026-01-29 01:04:13] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:04:13,309 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:04:13,310 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:04:13,310 - INFO - ==================================================
+2026-01-29 01:04:13,310 - INFO - 📊 Processing Summary:
+2026-01-29 01:04:13,310 - INFO -   Total messages: 8
+2026-01-29 01:04:13,310 - INFO -   New messages: 0
+2026-01-29 01:04:13,310 - INFO -   Forwarded: 0
+2026-01-29 01:04:13,310 - INFO -   Failed: 0
+2026-01-29 01:04:13,310 - INFO -   Skipped (already forwarded): 8
+2026-01-29 01:04:13,310 - INFO - ==================================================
+[2026-01-29 01:04:13] ✅ Forwarding completed successfully
+[2026-01-29 01:04:13] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:04:13] ==========================================
+[2026-01-29 01:05:58] ==========================================
+[2026-01-29 01:05:58] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:05:58] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:05:58.716Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: false
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": false,
+  "hasBody": true,
+  "bodyText": "English\nForgot password?\nLog In\nLog In with TP-Link ID\nTL-MR6400\nApp\n300Mbps Wireless N 4G LTE Router\nOnly one device can log in at a time. Do you want to continue and force the other device to log of"
+}
+JavaScript not loaded yet, waiting...
+⚠️  Timeout waiting for $.act, will try to proceed anyway
+✅ Login completed
+Retrieving SMS messages...
+Waiting for JavaScript libraries to load...
+⚠️  Timeout waiting for libraries, will try anyway...
+❌ Error: jQuery or $.act not available
+pptr:evaluate;retrieveSMS%20(%2Fhome%2Fsgarcia%2Fvsr_3g%2Fscripts%2Fpuppeteer_sms_retriever.js%3A178%3A33):6:28
+Error: jQuery or $.act not available
+pptr:evaluate;retrieveSMS%20(%2Fhome%2Fsgarcia%2Fvsr_3g%2Fscripts%2Fpuppeteer_sms_retriever.js%3A178%3A33):6:28
+    at evaluate (evaluate at retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:178:33), <anonymous>:5:27)
+    at evaluate (evaluate at retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:178:33), <anonymous>:1:15)
+    at #evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:222:56)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ExecutionContext.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:117:16)
+    at async IsolatedWorld.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:124:16)
+    at async CdpFrame.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:353:20)
+    at async CdpPage.evaluate (/home/sgarcia/vsr_3g/scripts/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:841:20)
+    at async retrieveSMS (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:178:22)
+    at async main (/home/sgarcia/vsr_3g/scripts/puppeteer_sms_retriever.js:308:26)
+[2026-01-29 01:06:50] ✅ SMS retrieval completed
+[2026-01-29 01:06:50] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:06:51,082 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:06:51,082 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:06:51,083 - INFO - ==================================================
+2026-01-29 01:06:51,083 - INFO - 📊 Processing Summary:
+2026-01-29 01:06:51,083 - INFO -   Total messages: 8
+2026-01-29 01:06:51,083 - INFO -   New messages: 0
+2026-01-29 01:06:51,083 - INFO -   Forwarded: 0
+2026-01-29 01:06:51,083 - INFO -   Failed: 0
+2026-01-29 01:06:51,083 - INFO -   Skipped (already forwarded): 8
+2026-01-29 01:06:51,083 - INFO - ==================================================
+[2026-01-29 01:06:51] ✅ Forwarding completed successfully
+[2026-01-29 01:06:51] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:06:51] ==========================================
+[2026-01-29 01:06:57] ==========================================
+[2026-01-29 01:06:57] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:06:57] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:06:57.865Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: false
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": false,
+  "hasBody": true,
+  "bodyText": "English\nForgot password?\nLog In\nLog In with TP-Link ID\nTL-MR6400\nApp\n300Mbps Wireless N 4G LTE Router\nOnly one device can log in at a time. Do you want to continue and force the other device to log of"
+}
+JavaScript not loaded yet, waiting...
+⚠️  Timeout waiting for $.act, will try to proceed anyway
+✅ Login completed
+Retrieving SMS messages...
+Waiting for JavaScript libraries to load...
+[2026-01-29 01:07:36] ❌ SMS retrieval failed
+[2026-01-29 01:08:45] ==========================================
+[2026-01-29 01:08:45] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:08:45] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:08:45.489Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: false
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button to force login
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": ""
+}
+✅ Login completed
+Retrieving SMS messages...
+Waiting for JavaScript libraries to load...
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 8 forwarded messages...
+✅ Deleted: 8, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 01:09:03] ✅ SMS retrieval completed
+[2026-01-29 01:09:03] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:09:03,510 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:09:03,510 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:09:03,511 - INFO - Forwarding SMS #99 from Vodafone. to Discord
+2026-01-29 01:09:03,856 - INFO - Successfully forwarded SMS #99 to Discord
+2026-01-29 01:09:03,858 - INFO - ✅ Forwarded message 99 from Vodafone.
+2026-01-29 01:09:03,860 - INFO - Forwarding SMS #98 from Vodafone. to Discord
+2026-01-29 01:09:04,095 - INFO - Successfully forwarded SMS #98 to Discord
+2026-01-29 01:09:04,097 - INFO - ✅ Forwarded message 98 from Vodafone.
+2026-01-29 01:09:04,098 - INFO - Forwarding SMS #97 from Vodafone. to Discord
+2026-01-29 01:09:04,319 - INFO - Successfully forwarded SMS #97 to Discord
+2026-01-29 01:09:04,320 - INFO - ✅ Forwarded message 97 from Vodafone.
+2026-01-29 01:09:04,320 - INFO - Forwarding SMS #96 from 865611216 to Discord
+2026-01-29 01:09:04,601 - INFO - Successfully forwarded SMS #96 to Discord
+2026-01-29 01:09:04,602 - INFO - ✅ Forwarded message 96 from 865611216
+2026-01-29 01:09:04,603 - INFO - Forwarding SMS #95 from 222177 to Discord
+2026-01-29 01:09:04,915 - INFO - Successfully forwarded SMS #95 to Discord
+2026-01-29 01:09:04,917 - INFO - ✅ Forwarded message 95 from 222177
+2026-01-29 01:09:04,918 - INFO - Forwarding SMS #94 from SANITAT  to Discord
+2026-01-29 01:09:05,187 - INFO - Successfully forwarded SMS #94 to Discord
+2026-01-29 01:09:05,189 - INFO - ✅ Forwarded message 94 from SANITAT 
+2026-01-29 01:09:05,190 - INFO - Forwarding SMS #93 from Vodafone to Discord
+2026-01-29 01:09:05,355 - ERROR - Discord API failed with status 429: {"message": "You are being rate limited.", "retry_after": 0.372, "global": false}
+2026-01-29 01:09:05,358 - ERROR - ❌ Failed to forward message 93
+2026-01-29 01:09:05,363 - INFO - Forwarding SMS #92 from Vodafone. to Discord
+2026-01-29 01:09:05,557 - ERROR - Discord API failed with status 429: {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+2026-01-29 01:09:05,560 - ERROR - ❌ Failed to forward message 92
+2026-01-29 01:09:05,562 - INFO - ==================================================
+2026-01-29 01:09:05,563 - INFO - 📊 Processing Summary:
+2026-01-29 01:09:05,563 - INFO -   Total messages: 8
+2026-01-29 01:09:05,563 - INFO -   New messages: 8
+2026-01-29 01:09:05,563 - INFO -   Forwarded: 6
+2026-01-29 01:09:05,563 - INFO -   Failed: 2
+2026-01-29 01:09:05,563 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:09:05,564 - INFO - ==================================================
+2026-01-29 01:09:05,564 - INFO - Sending batch summary to Discord: 6/8 forwarded
+2026-01-29 01:09:05,838 - INFO - Successfully sent batch summary to Discord
+[2026-01-29 01:09:05] ✅ Forwarding completed successfully
+[2026-01-29 01:09:05] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:09:05] ==========================================
+[2026-01-29 01:13:06] ==========================================
+[2026-01-29 01:13:06] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:13:06] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:13:07.084Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: false
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button to force login
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": false,
+  "hasBody": true,
+  "bodyText": "English\nForgot password?\nLog In\nLog In with TP-Link ID\nTL-MR6400\nApp\n300Mbps Wireless N 4G LTE Router"
+}
+JavaScript not loaded yet, waiting...
+✅ Login completed
+Retrieving SMS messages...
+Waiting for JavaScript libraries to load...
+✅ Retrieved 0 messages
+✅ Saved 0 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 8 forwarded messages...
+✅ Deleted: 0, Failed: 0
+✅ SMS retrieval completed successfully
+[2026-01-29 01:13:19] ✅ SMS retrieval completed
+[2026-01-29 01:13:19] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:13:19,988 - INFO - Loaded 0 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:13:19,988 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:13:19,988 - INFO - ==================================================
+2026-01-29 01:13:19,989 - INFO - 📊 Processing Summary:
+2026-01-29 01:13:19,989 - INFO -   Total messages: 0
+2026-01-29 01:13:19,989 - INFO -   New messages: 0
+2026-01-29 01:13:19,989 - INFO -   Forwarded: 0
+2026-01-29 01:13:19,989 - INFO -   Failed: 0
+2026-01-29 01:13:19,989 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:13:19,989 - INFO - ==================================================
+[2026-01-29 01:13:20] ✅ Forwarding completed successfully
+[2026-01-29 01:13:20] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:13:20] ==========================================
+[2026-01-29 01:23:19] ==========================================
+[2026-01-29 01:23:19] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:23:19] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:23:20.167Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: false
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Retrieving SMS messages...
+Waiting for JavaScript libraries to load...
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 8 forwarded messages...
+✅ Deleted: 0, Failed: 0
+✅ SMS retrieval completed successfully
+[2026-01-29 01:23:35] ✅ SMS retrieval completed
+[2026-01-29 01:23:35] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:23:35,567 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:23:35,567 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:23:35,568 - INFO - Forwarding SMS #91 from Vodafone. to Discord
+2026-01-29 01:23:35,882 - INFO - Successfully forwarded SMS #91 to Discord
+2026-01-29 01:23:35,885 - INFO - ✅ Forwarded message 91 from Vodafone.
+2026-01-29 01:23:35,885 - INFO - Forwarding SMS #90 from BBVA-ES  to Discord
+2026-01-29 01:23:36,165 - INFO - Successfully forwarded SMS #90 to Discord
+2026-01-29 01:23:36,170 - INFO - ✅ Forwarded message 90 from BBVA-ES 
+2026-01-29 01:23:36,177 - INFO - Forwarding SMS #89 from Vodafone. to Discord
+2026-01-29 01:23:36,498 - INFO - Successfully forwarded SMS #89 to Discord
+2026-01-29 01:23:36,500 - INFO - ✅ Forwarded message 89 from Vodafone.
+2026-01-29 01:23:36,501 - INFO - Forwarding SMS #88 from Vodafone. to Discord
+2026-01-29 01:23:36,753 - INFO - Successfully forwarded SMS #88 to Discord
+2026-01-29 01:23:36,755 - INFO - ✅ Forwarded message 88 from Vodafone.
+2026-01-29 01:23:36,756 - INFO - Forwarding SMS #87 from 623596386 to Discord
+2026-01-29 01:23:37,115 - INFO - Successfully forwarded SMS #87 to Discord
+2026-01-29 01:23:37,120 - INFO - ✅ Forwarded message 87 from 623596386
+2026-01-29 01:23:37,121 - INFO - Forwarding SMS #86 from 222177 to Discord
+2026-01-29 01:23:37,383 - INFO - Successfully forwarded SMS #86 to Discord
+2026-01-29 01:23:37,387 - INFO - ✅ Forwarded message 86 from 222177
+2026-01-29 01:23:37,389 - INFO - Forwarding SMS #85 from Vodafone. to Discord
+2026-01-29 01:23:37,622 - WARNING - Rate limited. Waiting 0.3s before retry (attempt 1/3)
+2026-01-29 01:23:38,147 - INFO - Successfully forwarded SMS #85 to Discord
+2026-01-29 01:23:38,149 - INFO - ✅ Forwarded message 85 from Vodafone.
+2026-01-29 01:23:38,150 - INFO - Forwarding SMS #84 from Vodafone. to Discord
+2026-01-29 01:23:38,312 - WARNING - Rate limited. Waiting 0.447s before retry (attempt 1/3)
+2026-01-29 01:23:39,170 - INFO - Successfully forwarded SMS #84 to Discord
+2026-01-29 01:23:39,172 - INFO - ✅ Forwarded message 84 from Vodafone.
+2026-01-29 01:23:39,176 - INFO - ==================================================
+2026-01-29 01:23:39,177 - INFO - 📊 Processing Summary:
+2026-01-29 01:23:39,177 - INFO -   Total messages: 8
+2026-01-29 01:23:39,177 - INFO -   New messages: 8
+2026-01-29 01:23:39,177 - INFO -   Forwarded: 8
+2026-01-29 01:23:39,177 - INFO -   Failed: 0
+2026-01-29 01:23:39,177 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:23:39,177 - INFO - ==================================================
+2026-01-29 01:23:39,177 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:23:39,370 - ERROR - Discord API failed for summary: 429
+[2026-01-29 01:23:39] ✅ Forwarding completed successfully
+[2026-01-29 01:23:39] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:23:39] ==========================================
+[2026-01-29 01:25:25] ==========================================
+[2026-01-29 01:25:25] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:25:25] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:25:25.517Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: false
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Retrieving SMS messages...
+Waiting for JavaScript libraries to load...
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 16 forwarded messages...
+✅ Deleted: 8, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 01:25:46] ✅ SMS retrieval completed
+[2026-01-29 01:25:46] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:25:46,428 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:25:46,429 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:25:46,429 - INFO - Forwarding SMS #91 from Vodafone. to Discord
+2026-01-29 01:25:46,659 - INFO - Successfully forwarded SMS #91 to Discord
+2026-01-29 01:25:46,662 - INFO - ✅ Forwarded message 91 from Vodafone.
+2026-01-29 01:25:46,663 - INFO - Forwarding SMS #90 from BBVA-ES  to Discord
+2026-01-29 01:25:46,875 - INFO - Successfully forwarded SMS #90 to Discord
+2026-01-29 01:25:46,878 - INFO - ✅ Forwarded message 90 from BBVA-ES 
+2026-01-29 01:25:46,879 - INFO - Forwarding SMS #89 from Vodafone. to Discord
+2026-01-29 01:25:47,108 - INFO - Successfully forwarded SMS #89 to Discord
+2026-01-29 01:25:47,110 - INFO - ✅ Forwarded message 89 from Vodafone.
+2026-01-29 01:25:47,110 - INFO - Forwarding SMS #88 from Vodafone. to Discord
+2026-01-29 01:25:47,345 - INFO - Successfully forwarded SMS #88 to Discord
+2026-01-29 01:25:47,346 - INFO - ✅ Forwarded message 88 from Vodafone.
+2026-01-29 01:25:47,348 - INFO - Forwarding SMS #87 from 623596386 to Discord
+2026-01-29 01:25:47,591 - INFO - Successfully forwarded SMS #87 to Discord
+2026-01-29 01:25:47,592 - INFO - ✅ Forwarded message 87 from 623596386
+2026-01-29 01:25:47,593 - INFO - Forwarding SMS #86 from 222177 to Discord
+2026-01-29 01:25:47,945 - INFO - Successfully forwarded SMS #86 to Discord
+2026-01-29 01:25:47,947 - INFO - ✅ Forwarded message 86 from 222177
+2026-01-29 01:25:47,948 - INFO - Forwarding SMS #85 from Vodafone. to Discord
+2026-01-29 01:25:48,145 - WARNING - Rate limited. Waiting 0.461s before retry (attempt 1/3)
+2026-01-29 01:25:48,821 - INFO - Successfully forwarded SMS #85 to Discord
+2026-01-29 01:25:48,823 - INFO - ✅ Forwarded message 85 from Vodafone.
+2026-01-29 01:25:48,823 - INFO - Forwarding SMS #84 from Vodafone. to Discord
+2026-01-29 01:25:49,018 - WARNING - Rate limited. Waiting 0.588s before retry (attempt 1/3)
+2026-01-29 01:25:49,871 - INFO - Successfully forwarded SMS #84 to Discord
+2026-01-29 01:25:49,873 - INFO - ✅ Forwarded message 84 from Vodafone.
+2026-01-29 01:25:49,874 - INFO - ==================================================
+2026-01-29 01:25:49,874 - INFO - 📊 Processing Summary:
+2026-01-29 01:25:49,875 - INFO -   Total messages: 8
+2026-01-29 01:25:49,875 - INFO -   New messages: 8
+2026-01-29 01:25:49,875 - INFO -   Forwarded: 8
+2026-01-29 01:25:49,876 - INFO -   Failed: 0
+2026-01-29 01:25:49,877 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:25:49,877 - INFO - ==================================================
+2026-01-29 01:25:49,877 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:25:50,038 - ERROR - Discord API failed for summary: 429
+[2026-01-29 01:25:50] ✅ Forwarding completed successfully
+[2026-01-29 01:25:50] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:25:50] ==========================================
+[2026-01-29 01:45:40] ==========================================
+[2026-01-29 01:45:40] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:45:40] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:45:41.022Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: false
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "83",
+      "from": "Vodafone.",
+      "content": "Vodafone: ¡Hoy es MiercoYES! Hoy regalamos 5 Aspiradoras sin cables de Rowenta o un 30% dto. ¡Descubre al momento tu premio! m.vodafone.es/mierco5 ",
+      "receivedTime": "2024-01-31 16:24:04",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "82",
+      "from": "MEDISALUD",
+      "content": "ENRIQUE, ¡ULTIMA OPORTUNIDAD PARA RECOGER TUS NUEVOS REGALOS!. Reserva GRATIS llamando al 621289074 O PULSA para + info https://sms.tl/6fVPgM",
+      "receivedTime": "2024-01-25 09:11:01",
+      "unread": "0"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "81",
+      "from": "Vodafone.",
+      "content": "VF Publi: Activa Secure Net y navega seguro en la red movil y fija. Disfruta de 3 MESES gratis, luego 1EUR/mes por cada linea +Info securenet.vodafone.es/login/f",
+      "receivedTime": "2024-01-24 20:20:21",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "80",
+      "from": "628230854",
+      "content": "628230854 ha hecho 1 llamada el dia 24/01/2024 a las 17:35 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-24 16:35:53",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "79",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-24 16:35:51",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "78",
+      "from": "Vodafone.",
+      "content": "Vodafone: ¡Doble Sorteo: Especial MiercoYES! Regalamos viajes a Cadiz por carnaval TODO incluido y 1100 entradas dobles de cine, solo hoy! m.vodafone.es/mierco5 ",
+      "receivedTime": "2024-01-24 16:24:08",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "77",
+      "from": "914567570",
+      "content": "914567570 ha hecho 1 llamada el dia 24/01/2024 a las 15:52 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-24 14:52:24",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "76",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-24 14:52:22",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+⚠️  Could not delete forwarded messages: ENOENT: no such file or directory, open '/home/sgarcia/vsr_3g/scripts/data/forwarded_state.json'
+✅ SMS retrieval completed successfully
+[2026-01-29 01:46:01] ✅ SMS retrieval completed
+[2026-01-29 01:46:01] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:46:01,360 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:46:01,361 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:46:01,362 - INFO - Forwarding SMS #83 from Vodafone. to Discord
+2026-01-29 01:46:01,721 - INFO - Successfully forwarded SMS #83 to Discord
+2026-01-29 01:46:01,726 - INFO - ✅ Forwarded message 83 from Vodafone.
+2026-01-29 01:46:01,730 - INFO - Forwarding SMS #82 from MEDISALUD to Discord
+2026-01-29 01:46:02,029 - INFO - Successfully forwarded SMS #82 to Discord
+2026-01-29 01:46:02,038 - INFO - ✅ Forwarded message 82 from MEDISALUD
+2026-01-29 01:46:02,039 - INFO - Forwarding SMS #81 from Vodafone. to Discord
+2026-01-29 01:46:02,354 - INFO - Successfully forwarded SMS #81 to Discord
+2026-01-29 01:46:02,356 - INFO - ✅ Forwarded message 81 from Vodafone.
+2026-01-29 01:46:02,357 - INFO - Forwarding SMS #80 from 628230854 to Discord
+2026-01-29 01:46:02,746 - INFO - Successfully forwarded SMS #80 to Discord
+2026-01-29 01:46:02,749 - INFO - ✅ Forwarded message 80 from 628230854
+2026-01-29 01:46:02,750 - INFO - Forwarding SMS #79 from 222177 to Discord
+2026-01-29 01:46:03,087 - INFO - Successfully forwarded SMS #79 to Discord
+2026-01-29 01:46:03,089 - INFO - ✅ Forwarded message 79 from 222177
+2026-01-29 01:46:03,091 - INFO - Forwarding SMS #78 from Vodafone. to Discord
+2026-01-29 01:46:03,435 - INFO - Successfully forwarded SMS #78 to Discord
+2026-01-29 01:46:03,444 - INFO - ✅ Forwarded message 78 from Vodafone.
+2026-01-29 01:46:03,446 - INFO - Forwarding SMS #77 from 914567570 to Discord
+2026-01-29 01:46:03,807 - INFO - Successfully forwarded SMS #77 to Discord
+2026-01-29 01:46:03,812 - INFO - ✅ Forwarded message 77 from 914567570
+2026-01-29 01:46:03,813 - INFO - Forwarding SMS #76 from 222177 to Discord
+2026-01-29 01:46:03,985 - WARNING - Rate limited. Waiting 0.581s before retry (attempt 1/3)
+2026-01-29 01:46:04,823 - INFO - Successfully forwarded SMS #76 to Discord
+2026-01-29 01:46:04,827 - INFO - ✅ Forwarded message 76 from 222177
+2026-01-29 01:46:04,828 - INFO - ==================================================
+2026-01-29 01:46:04,828 - INFO - 📊 Processing Summary:
+2026-01-29 01:46:04,828 - INFO -   Total messages: 8
+2026-01-29 01:46:04,828 - INFO -   New messages: 8
+2026-01-29 01:46:04,829 - INFO -   Forwarded: 8
+2026-01-29 01:46:04,829 - INFO -   Failed: 0
+2026-01-29 01:46:04,829 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:46:04,829 - INFO - ==================================================
+2026-01-29 01:46:04,829 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:46:04,988 - ERROR - Discord API failed for summary: 429
+[2026-01-29 01:46:05] ✅ Forwarding completed successfully
+[2026-01-29 01:46:05] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:46:05] ==========================================
+[2026-01-29 01:49:16] ==========================================
+[2026-01-29 01:49:16] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:49:16] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:49:17.474Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "83",
+      "from": "Vodafone.",
+      "content": "Vodafone: ¡Hoy es MiercoYES! Hoy regalamos 5 Aspiradoras sin cables de Rowenta o un 30% dto. ¡Descubre al momento tu premio! m.vodafone.es/mierco5 ",
+      "receivedTime": "2024-01-31 16:24:04",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "82",
+      "from": "MEDISALUD",
+      "content": "ENRIQUE, ¡ULTIMA OPORTUNIDAD PARA RECOGER TUS NUEVOS REGALOS!. Reserva GRATIS llamando al 621289074 O PULSA para + info https://sms.tl/6fVPgM",
+      "receivedTime": "2024-01-25 09:11:01",
+      "unread": "0"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "81",
+      "from": "Vodafone.",
+      "content": "VF Publi: Activa Secure Net y navega seguro en la red movil y fija. Disfruta de 3 MESES gratis, luego 1EUR/mes por cada linea +Info securenet.vodafone.es/login/f",
+      "receivedTime": "2024-01-24 20:20:21",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "80",
+      "from": "628230854",
+      "content": "628230854 ha hecho 1 llamada el dia 24/01/2024 a las 17:35 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-24 16:35:53",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "79",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-24 16:35:51",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "78",
+      "from": "Vodafone.",
+      "content": "Vodafone: ¡Doble Sorteo: Especial MiercoYES! Regalamos viajes a Cadiz por carnaval TODO incluido y 1100 entradas dobles de cine, solo hoy! m.vodafone.es/mierco5 ",
+      "receivedTime": "2024-01-24 16:24:08",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "77",
+      "from": "914567570",
+      "content": "914567570 ha hecho 1 llamada el dia 24/01/2024 a las 15:52 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-24 14:52:24",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "76",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-24 14:52:22",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+✅ SMS retrieval completed successfully
+[2026-01-29 01:49:36] ✅ SMS retrieval completed
+[2026-01-29 01:49:36] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:49:37,094 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:49:37,095 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:49:37,095 - INFO - Forwarding SMS #83 from Vodafone. to Discord
+2026-01-29 01:49:37,365 - INFO - Successfully forwarded SMS #83 to Discord
+2026-01-29 01:49:37,367 - INFO - ✅ Forwarded message 83 from Vodafone.
+2026-01-29 01:49:37,369 - INFO - Forwarding SMS #82 from MEDISALUD to Discord
+2026-01-29 01:49:37,637 - INFO - Successfully forwarded SMS #82 to Discord
+2026-01-29 01:49:37,639 - INFO - ✅ Forwarded message 82 from MEDISALUD
+2026-01-29 01:49:37,639 - INFO - Forwarding SMS #81 from Vodafone. to Discord
+2026-01-29 01:49:37,967 - INFO - Successfully forwarded SMS #81 to Discord
+2026-01-29 01:49:37,969 - INFO - ✅ Forwarded message 81 from Vodafone.
+2026-01-29 01:49:37,970 - INFO - Forwarding SMS #80 from 628230854 to Discord
+2026-01-29 01:49:38,343 - INFO - Successfully forwarded SMS #80 to Discord
+2026-01-29 01:49:38,347 - INFO - ✅ Forwarded message 80 from 628230854
+2026-01-29 01:49:38,350 - INFO - Forwarding SMS #79 from 222177 to Discord
+2026-01-29 01:49:38,612 - INFO - Successfully forwarded SMS #79 to Discord
+2026-01-29 01:49:38,615 - INFO - ✅ Forwarded message 79 from 222177
+2026-01-29 01:49:38,616 - INFO - Forwarding SMS #78 from Vodafone. to Discord
+2026-01-29 01:49:38,855 - INFO - Successfully forwarded SMS #78 to Discord
+2026-01-29 01:49:38,857 - INFO - ✅ Forwarded message 78 from Vodafone.
+2026-01-29 01:49:38,858 - INFO - Forwarding SMS #77 from 914567570 to Discord
+2026-01-29 01:49:39,062 - WARNING - Rate limited. Waiting 0.3s before retry (attempt 1/3)
+2026-01-29 01:49:39,633 - INFO - Successfully forwarded SMS #77 to Discord
+2026-01-29 01:49:39,640 - INFO - ✅ Forwarded message 77 from 914567570
+2026-01-29 01:49:39,642 - INFO - Forwarding SMS #76 from 222177 to Discord
+2026-01-29 01:49:39,820 - WARNING - Rate limited. Waiting 0.462s before retry (attempt 1/3)
+2026-01-29 01:49:40,649 - INFO - Successfully forwarded SMS #76 to Discord
+2026-01-29 01:49:40,653 - INFO - ✅ Forwarded message 76 from 222177
+2026-01-29 01:49:40,656 - INFO - ==================================================
+2026-01-29 01:49:40,658 - INFO - 📊 Processing Summary:
+2026-01-29 01:49:40,659 - INFO -   Total messages: 8
+2026-01-29 01:49:40,661 - INFO -   New messages: 8
+2026-01-29 01:49:40,665 - INFO -   Forwarded: 8
+2026-01-29 01:49:40,665 - INFO -   Failed: 0
+2026-01-29 01:49:40,665 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:49:40,665 - INFO - ==================================================
+2026-01-29 01:49:40,665 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:49:40,904 - ERROR - Discord API failed for summary: 429
+[2026-01-29 01:49:41] ✅ Forwarding completed successfully
+[2026-01-29 01:49:41] Step 3: Deleting forwarded messages from modem...
+[2026-01-29T00:49:41.704Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n0\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+⚠️  Could not find SMS button
+⚠️  Could not find Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "83",
+      "from": "Vodafone.",
+      "content": "Vodafone: ¡Hoy es MiercoYES! Hoy regalamos 5 Aspiradoras sin cables de Rowenta o un 30% dto. ¡Descubre al momento tu premio! m.vodafone.es/mierco5 ",
+      "receivedTime": "2024-01-31 16:24:04",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "82",
+      "from": "MEDISALUD",
+      "content": "ENRIQUE, ¡ULTIMA OPORTUNIDAD PARA RECOGER TUS NUEVOS REGALOS!. Reserva GRATIS llamando al 621289074 O PULSA para + info https://sms.tl/6fVPgM",
+      "receivedTime": "2024-01-25 09:11:01",
+      "unread": "0"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "81",
+      "from": "Vodafone.",
+      "content": "VF Publi: Activa Secure Net y navega seguro en la red movil y fija. Disfruta de 3 MESES gratis, luego 1EUR/mes por cada linea +Info securenet.vodafone.es/login/f",
+      "receivedTime": "2024-01-24 20:20:21",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "80",
+      "from": "628230854",
+      "content": "628230854 ha hecho 1 llamada el dia 24/01/2024 a las 17:35 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-24 16:35:53",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "79",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-24 16:35:51",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "78",
+      "from": "Vodafone.",
+      "content": "Vodafone: ¡Doble Sorteo: Especial MiercoYES! Regalamos viajes a Cadiz por carnaval TODO incluido y 1100 entradas dobles de cine, solo hoy! m.vodafone.es/mierco5 ",
+      "receivedTime": "2024-01-24 16:24:08",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "77",
+      "from": "914567570",
+      "content": "914567570 ha hecho 1 llamada el dia 24/01/2024 a las 15:52 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-24 14:52:24",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "76",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-24 14:52:22",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 8 forwarded messages...
+✅ Deleted: 8, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 01:50:03] ✅ Messages deleted from modem
+[2026-01-29 01:50:03] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:50:03] ==========================================
+[2026-01-29 01:51:15] ==========================================
+[2026-01-29 01:51:15] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:51:15] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:51:15.920Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "75",
+      "from": "621684495",
+      "content": "621684495 ha hecho 1 llamada el dia 24/01/2024 a las 11:12 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-24 10:12:19",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "74",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-24 10:12:17",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "73",
+      "from": "914567570",
+      "content": "914567570 ha hecho 1 llamada el dia 24/01/2024 a las 08:11 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-24 07:11:17",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "72",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-24 07:11:14",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "71",
+      "from": "914567570",
+      "content": "914567570 ha hecho 1 llamada el dia 23/01/2024 a las 17:57 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-23 16:57:09",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "70",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-23 16:57:07",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "69",
+      "from": "621685807",
+      "content": "621685807 ha hecho 1 llamada el dia 23/01/2024 a las 14:53 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-23 13:54:03",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "68",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-23 13:54:00",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+✅ SMS retrieval completed successfully
+[2026-01-29 01:51:34] ✅ SMS retrieval completed
+[2026-01-29 01:51:34] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:51:34,731 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:51:34,732 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:51:34,732 - INFO - Forwarding SMS #75 from 621684495 to Discord
+2026-01-29 01:51:34,981 - INFO - Successfully forwarded SMS #75 to Discord
+2026-01-29 01:51:34,982 - INFO - ✅ Forwarded message 75 from 621684495
+2026-01-29 01:51:34,983 - INFO - Forwarding SMS #74 from 222177 to Discord
+2026-01-29 01:51:35,216 - INFO - Successfully forwarded SMS #74 to Discord
+2026-01-29 01:51:35,220 - INFO - ✅ Forwarded message 74 from 222177
+2026-01-29 01:51:35,221 - INFO - Forwarding SMS #73 from 914567570 to Discord
+2026-01-29 01:51:35,466 - INFO - Successfully forwarded SMS #73 to Discord
+2026-01-29 01:51:35,467 - INFO - ✅ Forwarded message 73 from 914567570
+2026-01-29 01:51:35,468 - INFO - Forwarding SMS #72 from 222177 to Discord
+2026-01-29 01:51:35,835 - INFO - Successfully forwarded SMS #72 to Discord
+2026-01-29 01:51:35,837 - INFO - ✅ Forwarded message 72 from 222177
+2026-01-29 01:51:35,838 - INFO - Forwarding SMS #71 from 914567570 to Discord
+2026-01-29 01:51:36,081 - INFO - Successfully forwarded SMS #71 to Discord
+2026-01-29 01:51:36,084 - INFO - ✅ Forwarded message 71 from 914567570
+2026-01-29 01:51:36,085 - INFO - Forwarding SMS #70 from 222177 to Discord
+2026-01-29 01:51:36,331 - INFO - Successfully forwarded SMS #70 to Discord
+2026-01-29 01:51:36,332 - INFO - ✅ Forwarded message 70 from 222177
+2026-01-29 01:51:36,333 - INFO - Forwarding SMS #69 from 621685807 to Discord
+2026-01-29 01:51:36,506 - WARNING - Rate limited. Waiting 0.426s before retry (attempt 1/3)
+2026-01-29 01:51:37,192 - INFO - Successfully forwarded SMS #69 to Discord
+2026-01-29 01:51:37,194 - INFO - ✅ Forwarded message 69 from 621685807
+2026-01-29 01:51:37,194 - INFO - Forwarding SMS #68 from 222177 to Discord
+2026-01-29 01:51:37,354 - WARNING - Rate limited. Waiting 0.577s before retry (attempt 1/3)
+2026-01-29 01:51:38,299 - INFO - Successfully forwarded SMS #68 to Discord
+2026-01-29 01:51:38,301 - INFO - ✅ Forwarded message 68 from 222177
+2026-01-29 01:51:38,305 - INFO - ==================================================
+2026-01-29 01:51:38,305 - INFO - 📊 Processing Summary:
+2026-01-29 01:51:38,306 - INFO -   Total messages: 8
+2026-01-29 01:51:38,306 - INFO -   New messages: 8
+2026-01-29 01:51:38,307 - INFO -   Forwarded: 8
+2026-01-29 01:51:38,307 - INFO -   Failed: 0
+2026-01-29 01:51:38,307 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:51:38,307 - INFO - ==================================================
+2026-01-29 01:51:38,307 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:51:38,474 - ERROR - Discord API failed for summary: 429
+[2026-01-29 01:51:38] ✅ Forwarding completed successfully
+[2026-01-29 01:51:38] Step 3: Deleting forwarded messages from modem...
+[2026-01-29T00:51:39.023Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n0\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+⚠️  Could not find SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "75",
+      "from": "621684495",
+      "content": "621684495 ha hecho 1 llamada el dia 24/01/2024 a las 11:12 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-24 10:12:19",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "74",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-24 10:12:17",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "73",
+      "from": "914567570",
+      "content": "914567570 ha hecho 1 llamada el dia 24/01/2024 a las 08:11 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-24 07:11:17",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "72",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-24 07:11:14",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "71",
+      "from": "914567570",
+      "content": "914567570 ha hecho 1 llamada el dia 23/01/2024 a las 17:57 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-23 16:57:09",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "70",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-23 16:57:07",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "69",
+      "from": "621685807",
+      "content": "621685807 ha hecho 1 llamada el dia 23/01/2024 a las 14:53 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-23 13:54:03",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "68",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-23 13:54:00",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 8 forwarded messages...
+✅ Deleted: 8, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 01:52:03] ✅ Messages deleted from modem
+[2026-01-29 01:52:03] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:52:03] ==========================================
+[2026-01-29 01:54:15] ==========================================
+[2026-01-29 01:54:15] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:54:15] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:54:15.827Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n0\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "67",
+      "from": "621683622",
+      "content": "621683622 ha hecho 1 llamada el dia 23/01/2024 a las 13:23 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-23 12:23:35",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "66",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-23 12:23:33",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "65",
+      "from": "MEDISALUD",
+      "content": "ENRIQUE, Celebra con MEDISALUD que seguimos 22 años juntos con este ESPECTACULAR REGALO.Llama GRATIS al 621289074 O PULSA para + info https://sms.tl/d0GkaG",
+      "receivedTime": "2024-01-23 09:29:56",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "64",
+      "from": "914567570",
+      "content": "914567570 ha hecho 1 llamada el dia 23/01/2024 a las 08:30 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-23 07:30:44",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "63",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-23 07:30:42",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "62",
+      "from": "Vodafone.",
+      "content": "VF Publi: Con las nuevas Tarifas te lo ponemos facil! Llevate una linea adicional con la tarifa YuMovil con 50GB de datos para navegar, llamadas y SMS ilimitados por tan solo 50,0 EUR al mes que incluye un descuento de 2,00 EUR al mes de manera PERMANENTE. +Info: m.vodafone.es/yu_sluthevndcti",
+      "receivedTime": "2024-01-22 18:53:45",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "61",
+      "from": "672801799",
+      "content": "672801799 ha hecho 1 llamada el dia 18/01/2024 a las 13:05 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-18 12:06:01",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "60",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-18 12:05:59",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+✅ SMS retrieval completed successfully
+[2026-01-29 01:54:35] ✅ SMS retrieval completed
+[2026-01-29 01:54:35] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:54:35,395 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:54:35,395 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:54:35,395 - INFO - Forwarding SMS #67 from 621683622 to Discord
+2026-01-29 01:54:35,631 - INFO - Successfully forwarded SMS #67 to Discord
+2026-01-29 01:54:35,632 - INFO - ✅ Forwarded message 67 from 621683622
+2026-01-29 01:54:35,640 - INFO - Forwarding SMS #66 from 222177 to Discord
+2026-01-29 01:54:35,864 - INFO - Successfully forwarded SMS #66 to Discord
+2026-01-29 01:54:35,866 - INFO - ✅ Forwarded message 66 from 222177
+2026-01-29 01:54:35,867 - INFO - Forwarding SMS #65 from MEDISALUD to Discord
+2026-01-29 01:54:36,169 - INFO - Successfully forwarded SMS #65 to Discord
+2026-01-29 01:54:36,170 - INFO - ✅ Forwarded message 65 from MEDISALUD
+2026-01-29 01:54:36,170 - INFO - Forwarding SMS #64 from 914567570 to Discord
+2026-01-29 01:54:36,422 - INFO - Successfully forwarded SMS #64 to Discord
+2026-01-29 01:54:36,423 - INFO - ✅ Forwarded message 64 from 914567570
+2026-01-29 01:54:36,424 - INFO - Forwarding SMS #63 from 222177 to Discord
+2026-01-29 01:54:36,704 - INFO - Successfully forwarded SMS #63 to Discord
+2026-01-29 01:54:36,706 - INFO - ✅ Forwarded message 63 from 222177
+2026-01-29 01:54:36,707 - INFO - Forwarding SMS #62 from Vodafone. to Discord
+2026-01-29 01:54:37,005 - INFO - Successfully forwarded SMS #62 to Discord
+2026-01-29 01:54:37,007 - INFO - ✅ Forwarded message 62 from Vodafone.
+2026-01-29 01:54:37,007 - INFO - Forwarding SMS #61 from 672801799 to Discord
+2026-01-29 01:54:37,164 - WARNING - Rate limited. Waiting 0.413s before retry (attempt 1/3)
+2026-01-29 01:54:37,839 - INFO - Successfully forwarded SMS #61 to Discord
+2026-01-29 01:54:37,842 - INFO - ✅ Forwarded message 61 from 672801799
+2026-01-29 01:54:37,843 - INFO - Forwarding SMS #60 from 222177 to Discord
+2026-01-29 01:54:38,083 - WARNING - Rate limited. Waiting 0.518s before retry (attempt 1/3)
+2026-01-29 01:54:38,826 - INFO - Successfully forwarded SMS #60 to Discord
+2026-01-29 01:54:38,828 - INFO - ✅ Forwarded message 60 from 222177
+2026-01-29 01:54:38,829 - INFO - ==================================================
+2026-01-29 01:54:38,829 - INFO - 📊 Processing Summary:
+2026-01-29 01:54:38,829 - INFO -   Total messages: 8
+2026-01-29 01:54:38,830 - INFO -   New messages: 8
+2026-01-29 01:54:38,830 - INFO -   Forwarded: 8
+2026-01-29 01:54:38,830 - INFO -   Failed: 0
+2026-01-29 01:54:38,830 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:54:38,830 - INFO - ==================================================
+2026-01-29 01:54:38,830 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:54:39,046 - ERROR - Discord API failed for summary: 429
+[2026-01-29 01:54:39] ✅ Forwarding completed successfully
+[2026-01-29 01:54:39] Step 3: Deleting forwarded messages from modem...
+[2026-01-29T00:54:39.562Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "67",
+      "from": "621683622",
+      "content": "621683622 ha hecho 1 llamada el dia 23/01/2024 a las 13:23 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-23 12:23:35",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "66",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-23 12:23:33",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "65",
+      "from": "MEDISALUD",
+      "content": "ENRIQUE, Celebra con MEDISALUD que seguimos 22 años juntos con este ESPECTACULAR REGALO.Llama GRATIS al 621289074 O PULSA para + info https://sms.tl/d0GkaG",
+      "receivedTime": "2024-01-23 09:29:56",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "64",
+      "from": "914567570",
+      "content": "914567570 ha hecho 1 llamada el dia 23/01/2024 a las 08:30 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-23 07:30:44",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "63",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-23 07:30:42",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "62",
+      "from": "Vodafone.",
+      "content": "VF Publi: Con las nuevas Tarifas te lo ponemos facil! Llevate una linea adicional con la tarifa YuMovil con 50GB de datos para navegar, llamadas y SMS ilimitados por tan solo 50,0 EUR al mes que incluye un descuento de 2,00 EUR al mes de manera PERMANENTE. +Info: m.vodafone.es/yu_sluthevndcti",
+      "receivedTime": "2024-01-22 18:53:45",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "61",
+      "from": "672801799",
+      "content": "672801799 ha hecho 1 llamada el dia 18/01/2024 a las 13:05 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-18 12:06:01",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "60",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-18 12:05:59",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 8 forwarded messages...
+✅ Deleted: 8, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 01:55:05] ✅ Messages deleted from modem
+[2026-01-29 01:55:05] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:55:05] ==========================================
+[2026-01-29 01:57:10] ==========================================
+[2026-01-29 01:57:10] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:57:10] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:57:11.407Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "59",
+      "from": "Vodafone.",
+      "content": "Vodafone: Si participas hoy podras ganar al instante 1 de los 100 Auriculares Inalambricos que sorteamos en MiercoYES! m.vodafone.es/mierco5 ",
+      "receivedTime": "2024-01-17 17:23:29",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "58",
+      "from": "Vodafone.",
+      "content": "VF Info: Comprueba que tienes el movil actualizado para que puedas realizar y recibir llamadas de calidad de voz en 4G. +Info: go.vodafone.es/llamadas-4g ",
+      "receivedTime": "2024-01-16 12:08:02",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "57",
+      "from": "Vodafone.",
+      "content": "VF Publi:  Si quieres tener una señal WiFi mas rapida y donde puedas conectar mas dispositivos sin perder calidad, contrata Vodafone Wi-Fi 6 Station por 3EUR/mes. Mas Info: m.vodafone.es/sms-wifi6",
+      "receivedTime": "2024-01-15 18:59:30",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "56",
+      "from": "672828676",
+      "content": "672828676 ha hecho 1 llamada el dia 15/01/2024 a las 18:55 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-15 17:55:14",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "55",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-15 17:55:12",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "54",
+      "from": "Vodafone.",
+      "content": "VF Publi: Con las nuevas Tarifas te lo ponemos facil! Llevate una linea adicional con la tarifa Movil Ilimitada Max con datos, llamadas y SMS ilimitados a maxima velocidad 5G por solo 58,5 EUR al mes que incluye un descuento de 4,01 EUR al mes de manera PERMANENTE solo hoy. +Info: m.vodafone.es/slu-ilimmx",
+      "receivedTime": "2024-01-12 18:48:22",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "53",
+      "from": "Vodafone.",
+      "content": "VF Publi: ¿Aun no conoces Vodafone TV? Crea tu propia TV añadiendo los packs que quieras y descubre las mejores peliculas y series con un precio especial. +Info: m.vodafone.es/vf-tv ",
+      "receivedTime": "2024-01-12 09:41:43",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "52",
+      "from": "Vodafone",
+      "content": "VF Info: Por ser cliente Vodafone recuerda que tienes 2 meses Sin coste de YouTube Premium. Disfruta de una experiencia sin anuncios, descarga videos y reprodúcelos más tarde sin conexión. Entra y activa tu beneficio aquí https://vodafone.es/YouTubePremium-reminder/",
+      "receivedTime": "2024-01-11 19:55:21",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+✅ SMS retrieval completed successfully
+[2026-01-29 01:57:30] ✅ SMS retrieval completed
+[2026-01-29 01:57:30] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:57:30,509 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:57:30,510 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:57:30,510 - INFO - Forwarding SMS #59 from Vodafone. to Discord
+2026-01-29 01:57:30,743 - INFO - Successfully forwarded SMS #59 to Discord
+2026-01-29 01:57:30,744 - INFO - ✅ Forwarded message 59 from Vodafone.
+2026-01-29 01:57:30,744 - INFO - Forwarding SMS #58 from Vodafone. to Discord
+2026-01-29 01:57:30,979 - INFO - Successfully forwarded SMS #58 to Discord
+2026-01-29 01:57:30,982 - INFO - ✅ Forwarded message 58 from Vodafone.
+2026-01-29 01:57:30,983 - INFO - Forwarding SMS #57 from Vodafone. to Discord
+2026-01-29 01:57:31,220 - INFO - Successfully forwarded SMS #57 to Discord
+2026-01-29 01:57:31,222 - INFO - ✅ Forwarded message 57 from Vodafone.
+2026-01-29 01:57:31,224 - INFO - Forwarding SMS #56 from 672828676 to Discord
+2026-01-29 01:57:31,473 - INFO - Successfully forwarded SMS #56 to Discord
+2026-01-29 01:57:31,479 - INFO - ✅ Forwarded message 56 from 672828676
+2026-01-29 01:57:31,480 - INFO - Forwarding SMS #55 from 222177 to Discord
+2026-01-29 01:57:31,734 - INFO - Successfully forwarded SMS #55 to Discord
+2026-01-29 01:57:31,735 - INFO - ✅ Forwarded message 55 from 222177
+2026-01-29 01:57:31,736 - INFO - Forwarding SMS #54 from Vodafone. to Discord
+2026-01-29 01:57:31,954 - INFO - Successfully forwarded SMS #54 to Discord
+2026-01-29 01:57:31,956 - INFO - ✅ Forwarded message 54 from Vodafone.
+2026-01-29 01:57:31,957 - INFO - Forwarding SMS #53 from Vodafone. to Discord
+2026-01-29 01:57:32,110 - WARNING - Rate limited. Waiting 0.577s before retry (attempt 1/3)
+2026-01-29 01:57:33,050 - INFO - Successfully forwarded SMS #53 to Discord
+2026-01-29 01:57:33,053 - INFO - ✅ Forwarded message 53 from Vodafone.
+2026-01-29 01:57:33,054 - INFO - Forwarding SMS #52 from Vodafone to Discord
+2026-01-29 01:57:33,230 - WARNING - Rate limited. Waiting 0.459s before retry (attempt 1/3)
+2026-01-29 01:57:33,923 - INFO - Successfully forwarded SMS #52 to Discord
+2026-01-29 01:57:33,924 - INFO - ✅ Forwarded message 52 from Vodafone
+2026-01-29 01:57:33,926 - INFO - ==================================================
+2026-01-29 01:57:33,926 - INFO - 📊 Processing Summary:
+2026-01-29 01:57:33,927 - INFO -   Total messages: 8
+2026-01-29 01:57:33,927 - INFO -   New messages: 8
+2026-01-29 01:57:33,927 - INFO -   Forwarded: 8
+2026-01-29 01:57:33,927 - INFO -   Failed: 0
+2026-01-29 01:57:33,927 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:57:33,927 - INFO - ==================================================
+2026-01-29 01:57:33,927 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:57:34,115 - ERROR - Discord API failed for summary: 429
+[2026-01-29 01:57:34] ✅ Forwarding completed successfully
+[2026-01-29 01:57:34] Step 3: Deleting forwarded messages from modem...
+[2026-01-29T00:57:34.564Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "59",
+      "from": "Vodafone.",
+      "content": "Vodafone: Si participas hoy podras ganar al instante 1 de los 100 Auriculares Inalambricos que sorteamos en MiercoYES! m.vodafone.es/mierco5 ",
+      "receivedTime": "2024-01-17 17:23:29",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "58",
+      "from": "Vodafone.",
+      "content": "VF Info: Comprueba que tienes el movil actualizado para que puedas realizar y recibir llamadas de calidad de voz en 4G. +Info: go.vodafone.es/llamadas-4g ",
+      "receivedTime": "2024-01-16 12:08:02",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "57",
+      "from": "Vodafone.",
+      "content": "VF Publi:  Si quieres tener una señal WiFi mas rapida y donde puedas conectar mas dispositivos sin perder calidad, contrata Vodafone Wi-Fi 6 Station por 3EUR/mes. Mas Info: m.vodafone.es/sms-wifi6",
+      "receivedTime": "2024-01-15 18:59:30",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "56",
+      "from": "672828676",
+      "content": "672828676 ha hecho 1 llamada el dia 15/01/2024 a las 18:55 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-15 17:55:14",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "55",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-15 17:55:12",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "54",
+      "from": "Vodafone.",
+      "content": "VF Publi: Con las nuevas Tarifas te lo ponemos facil! Llevate una linea adicional con la tarifa Movil Ilimitada Max con datos, llamadas y SMS ilimitados a maxima velocidad 5G por solo 58,5 EUR al mes que incluye un descuento de 4,01 EUR al mes de manera PERMANENTE solo hoy. +Info: m.vodafone.es/slu-ilimmx",
+      "receivedTime": "2024-01-12 18:48:22",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "53",
+      "from": "Vodafone.",
+      "content": "VF Publi: ¿Aun no conoces Vodafone TV? Crea tu propia TV añadiendo los packs que quieras y descubre las mejores peliculas y series con un precio especial. +Info: m.vodafone.es/vf-tv ",
+      "receivedTime": "2024-01-12 09:41:43",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "52",
+      "from": "Vodafone",
+      "content": "VF Info: Por ser cliente Vodafone recuerda que tienes 2 meses Sin coste de YouTube Premium. Disfruta de una experiencia sin anuncios, descarga videos y reprodúcelos más tarde sin conexión. Entra y activa tu beneficio aquí https://vodafone.es/YouTubePremium-reminder/",
+      "receivedTime": "2024-01-11 19:55:21",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 8 forwarded messages...
+✅ Deleted: 8, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 01:58:00] ✅ Messages deleted from modem
+[2026-01-29 01:58:00] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:58:00] ==========================================
+[2026-01-29 01:58:56] ==========================================
+[2026-01-29 01:58:56] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 01:58:56] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T00:58:56.513Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n0\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "51",
+      "from": "Vodafone.",
+      "content": "Vodafone: ¡Mucho ritmo en este MiercoYES! Participa y gana 1 de los 300 Altavoces que regalamos, ¡sabras si te ha tocado al instante! m.vodafone.es/mierco5 ",
+      "receivedTime": "2024-01-10 17:08:14",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "50",
+      "from": "BBVA",
+      "content": "BBVA: Se ha iniciado sesion desde un dispositivo no autorizado, si no reconoce esta accion verifique inmediatamente en:  https://www.esbbva-web-clientes.com/",
+      "receivedTime": "2024-01-09 20:27:33",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "49",
+      "from": "686545720",
+      "content": "686545720 ha hecho 1 llamada el dia 09/01/2024 a las 11:58 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-09 10:59:01",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "48",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-09 10:58:59",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "47",
+      "from": "963112114",
+      "content": "963112114 ha hecho 1 llamada el dia 03/01/2024 a las 11:56 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-03 10:56:04",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "46",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-03 10:56:01",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "45",
+      "from": "963112114",
+      "content": "963112114 ha hecho 1 llamada el dia 03/01/2024 a las 11:47 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-03 10:47:18",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "44",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-03 10:47:16",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+✅ SMS retrieval completed successfully
+[2026-01-29 01:59:16] ✅ SMS retrieval completed
+[2026-01-29 01:59:16] Step 2: Forwarding new messages to Discord...
+2026-01-29 01:59:16,265 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 01:59:16,265 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 01:59:16,265 - INFO - Forwarding SMS #51 from Vodafone. to Discord
+2026-01-29 01:59:16,608 - INFO - Successfully forwarded SMS #51 to Discord
+2026-01-29 01:59:16,610 - INFO - ✅ Forwarded message 51 from Vodafone.
+2026-01-29 01:59:16,611 - INFO - Forwarding SMS #50 from BBVA to Discord
+2026-01-29 01:59:16,847 - INFO - Successfully forwarded SMS #50 to Discord
+2026-01-29 01:59:16,850 - INFO - ✅ Forwarded message 50 from BBVA
+2026-01-29 01:59:16,851 - INFO - Forwarding SMS #49 from 686545720 to Discord
+2026-01-29 01:59:17,086 - INFO - Successfully forwarded SMS #49 to Discord
+2026-01-29 01:59:17,088 - INFO - ✅ Forwarded message 49 from 686545720
+2026-01-29 01:59:17,088 - INFO - Forwarding SMS #48 from 222177 to Discord
+2026-01-29 01:59:17,379 - INFO - Successfully forwarded SMS #48 to Discord
+2026-01-29 01:59:17,381 - INFO - ✅ Forwarded message 48 from 222177
+2026-01-29 01:59:17,381 - INFO - Forwarding SMS #47 from 963112114 to Discord
+2026-01-29 01:59:17,603 - INFO - Successfully forwarded SMS #47 to Discord
+2026-01-29 01:59:17,604 - INFO - ✅ Forwarded message 47 from 963112114
+2026-01-29 01:59:17,605 - INFO - Forwarding SMS #46 from 222177 to Discord
+2026-01-29 01:59:17,854 - INFO - Successfully forwarded SMS #46 to Discord
+2026-01-29 01:59:17,858 - INFO - ✅ Forwarded message 46 from 222177
+2026-01-29 01:59:17,863 - INFO - Forwarding SMS #45 from 963112114 to Discord
+2026-01-29 01:59:18,091 - WARNING - Rate limited. Waiting 0.375s before retry (attempt 1/3)
+2026-01-29 01:59:18,754 - INFO - Successfully forwarded SMS #45 to Discord
+2026-01-29 01:59:18,756 - INFO - ✅ Forwarded message 45 from 963112114
+2026-01-29 01:59:18,756 - INFO - Forwarding SMS #44 from 222177 to Discord
+2026-01-29 01:59:18,921 - WARNING - Rate limited. Waiting 0.539s before retry (attempt 1/3)
+2026-01-29 01:59:19,706 - INFO - Successfully forwarded SMS #44 to Discord
+2026-01-29 01:59:19,708 - INFO - ✅ Forwarded message 44 from 222177
+2026-01-29 01:59:19,709 - INFO - ==================================================
+2026-01-29 01:59:19,709 - INFO - 📊 Processing Summary:
+2026-01-29 01:59:19,709 - INFO -   Total messages: 8
+2026-01-29 01:59:19,709 - INFO -   New messages: 8
+2026-01-29 01:59:19,709 - INFO -   Forwarded: 8
+2026-01-29 01:59:19,710 - INFO -   Failed: 0
+2026-01-29 01:59:19,710 - INFO -   Skipped (already forwarded): 0
+2026-01-29 01:59:19,710 - INFO - ==================================================
+2026-01-29 01:59:19,710 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 01:59:19,867 - ERROR - Discord API failed for summary: 429
+[2026-01-29 01:59:19] ✅ Forwarding completed successfully
+[2026-01-29 01:59:19] Step 3: Deleting forwarded messages from modem...
+[2026-01-29T00:59:20.404Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "51",
+      "from": "Vodafone.",
+      "content": "Vodafone: ¡Mucho ritmo en este MiercoYES! Participa y gana 1 de los 300 Altavoces que regalamos, ¡sabras si te ha tocado al instante! m.vodafone.es/mierco5 ",
+      "receivedTime": "2024-01-10 17:08:14",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "50",
+      "from": "BBVA",
+      "content": "BBVA: Se ha iniciado sesion desde un dispositivo no autorizado, si no reconoce esta accion verifique inmediatamente en:  https://www.esbbva-web-clientes.com/",
+      "receivedTime": "2024-01-09 20:27:33",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "49",
+      "from": "686545720",
+      "content": "686545720 ha hecho 1 llamada el dia 09/01/2024 a las 11:58 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-09 10:59:01",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "48",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-09 10:58:59",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "47",
+      "from": "963112114",
+      "content": "963112114 ha hecho 1 llamada el dia 03/01/2024 a las 11:56 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-03 10:56:04",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "46",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-03 10:56:01",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "45",
+      "from": "963112114",
+      "content": "963112114 ha hecho 1 llamada el dia 03/01/2024 a las 11:47 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-03 10:47:18",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "44",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-03 10:47:16",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 8 forwarded messages...
+✅ Deleted: 8, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 01:59:46] ✅ Messages deleted from modem
+[2026-01-29 01:59:46] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 01:59:46] ==========================================
+[2026-01-29 02:00:46] ==========================================
+[2026-01-29 02:00:46] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 02:00:46] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T01:00:47.427Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "43",
+      "from": "600408616",
+      "content": "600408616 ha hecho 1 llamada el dia 02/01/2024 a las 17:23 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-02 16:23:15",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "42",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-02 16:23:14",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "41",
+      "from": "600408616",
+      "content": "600408616 ha hecho 1 llamada el dia 02/01/2024 a las 16:56 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-02 15:56:51",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "40",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-02 15:56:50",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "39",
+      "from": "607764756",
+      "content": "607764756 ha hecho 1 llamada el dia 02/01/2024 a las 16:04 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-02 15:04:08",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "38",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-02 15:04:07",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "37",
+      "from": "607764756",
+      "content": "607764756 ha hecho 1 llamada el dia 02/01/2024 a las 15:59 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-02 14:59:26",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "36",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-02 14:59:24",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+✅ SMS retrieval completed successfully
+[2026-01-29 02:01:06] ✅ SMS retrieval completed
+[2026-01-29 02:01:06] Step 2: Forwarding new messages to Discord...
+2026-01-29 02:01:06,477 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 02:01:06,477 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 02:01:06,478 - INFO - Forwarding SMS #43 from 600408616 to Discord
+2026-01-29 02:01:06,759 - INFO - Successfully forwarded SMS #43 to Discord
+2026-01-29 02:01:06,761 - INFO - ✅ Forwarded message 43 from 600408616
+2026-01-29 02:01:06,762 - INFO - Forwarding SMS #42 from 222177 to Discord
+2026-01-29 02:01:07,016 - INFO - Successfully forwarded SMS #42 to Discord
+2026-01-29 02:01:07,017 - INFO - ✅ Forwarded message 42 from 222177
+2026-01-29 02:01:07,018 - INFO - Forwarding SMS #41 from 600408616 to Discord
+2026-01-29 02:01:07,303 - INFO - Successfully forwarded SMS #41 to Discord
+2026-01-29 02:01:07,306 - INFO - ✅ Forwarded message 41 from 600408616
+2026-01-29 02:01:07,307 - INFO - Forwarding SMS #40 from 222177 to Discord
+2026-01-29 02:01:07,567 - INFO - Successfully forwarded SMS #40 to Discord
+2026-01-29 02:01:07,569 - INFO - ✅ Forwarded message 40 from 222177
+2026-01-29 02:01:07,570 - INFO - Forwarding SMS #39 from 607764756 to Discord
+2026-01-29 02:01:07,852 - INFO - Successfully forwarded SMS #39 to Discord
+2026-01-29 02:01:07,855 - INFO - ✅ Forwarded message 39 from 607764756
+2026-01-29 02:01:07,857 - INFO - Forwarding SMS #38 from 222177 to Discord
+2026-01-29 02:01:08,118 - INFO - Successfully forwarded SMS #38 to Discord
+2026-01-29 02:01:08,120 - INFO - ✅ Forwarded message 38 from 222177
+2026-01-29 02:01:08,121 - INFO - Forwarding SMS #37 from 607764756 to Discord
+2026-01-29 02:01:08,304 - WARNING - Rate limited. Waiting 0.364s before retry (attempt 1/3)
+2026-01-29 02:01:08,916 - INFO - Successfully forwarded SMS #37 to Discord
+2026-01-29 02:01:08,918 - INFO - ✅ Forwarded message 37 from 607764756
+2026-01-29 02:01:08,919 - INFO - Forwarding SMS #36 from 222177 to Discord
+2026-01-29 02:01:09,121 - WARNING - Rate limited. Waiting 0.548s before retry (attempt 1/3)
+2026-01-29 02:01:09,977 - INFO - Successfully forwarded SMS #36 to Discord
+2026-01-29 02:01:09,980 - INFO - ✅ Forwarded message 36 from 222177
+2026-01-29 02:01:09,981 - INFO - ==================================================
+2026-01-29 02:01:09,981 - INFO - 📊 Processing Summary:
+2026-01-29 02:01:09,981 - INFO -   Total messages: 8
+2026-01-29 02:01:09,981 - INFO -   New messages: 8
+2026-01-29 02:01:09,982 - INFO -   Forwarded: 8
+2026-01-29 02:01:09,982 - INFO -   Failed: 0
+2026-01-29 02:01:09,982 - INFO -   Skipped (already forwarded): 0
+2026-01-29 02:01:09,982 - INFO - ==================================================
+2026-01-29 02:01:09,982 - INFO - Sending batch summary to Discord: 8/8 forwarded
+2026-01-29 02:01:10,219 - ERROR - Discord API failed for summary: 429
+[2026-01-29 02:01:10] ✅ Forwarding completed successfully
+[2026-01-29 02:01:10] Step 3: Deleting forwarded messages from modem...
+[2026-01-29T01:01:10.765Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n0\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "43",
+      "from": "600408616",
+      "content": "600408616 ha hecho 1 llamada el dia 02/01/2024 a las 17:23 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-02 16:23:15",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "42",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-02 16:23:14",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "41",
+      "from": "600408616",
+      "content": "600408616 ha hecho 1 llamada el dia 02/01/2024 a las 16:56 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-02 15:56:51",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "40",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-02 15:56:50",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "39",
+      "from": "607764756",
+      "content": "607764756 ha hecho 1 llamada el dia 02/01/2024 a las 16:04 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-02 15:04:08",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "38",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-02 15:04:07",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "37",
+      "from": "607764756",
+      "content": "607764756 ha hecho 1 llamada el dia 02/01/2024 a las 15:59 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-02 14:59:26",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "36",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-02 14:59:24",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 8 forwarded messages...
+✅ Deleted: 8, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 02:01:37] ✅ Messages deleted from modem
+[2026-01-29 02:01:37] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 02:01:37] ==========================================
+[2026-01-29 02:09:45] ==========================================
+[2026-01-29 02:09:45] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 02:09:45] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T01:09:45.535Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n0\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "35",
+      "from": "607764756",
+      "content": "607764756 ha hecho 1 llamada el dia 02/01/2024 a las 15:57 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-02 14:58:01",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "34",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-02 14:57:59",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "33",
+      "from": "Vodafone",
+      "content": "VF Info: Para acceder a Mi Vodafone por seguridad necesitas el codigo: 481563. No lo compartas con nadie; nunca te lo pediremos por ningun medio. Remitido por Vodafone. i2cVteap5kc",
+      "receivedTime": "2024-01-01 21:27:48",
+      "unread": "0"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "32",
+      "from": "Vodafone",
+      "content": "VF Info: NO COMPARTAS el codigo con nadie. Nunca contactaremos para pedirtelo. Usa el codigo 95928 para continuar con tu registro en Mi Vodafone.",
+      "receivedTime": "2024-01-01 21:25:26",
+      "unread": "0"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "31",
+      "from": "Vodafone",
+      "content": "VF Info:Has consumido el 100% de GB de tu Tarifa.Se reduce la velocidad.Contrata un bono de datos ilimitados desde 5E con IVA en http://m.vodafone.es/bonos",
+      "receivedTime": "2024-01-01 11:40:29",
+      "unread": "0"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "30",
+      "from": "Vodafone",
+      "content": "VF Info:Has consumido el 90% de GB de tu Tarifa. Contrata un bono de datos ilimitados desde 5E con IVA en http://m.vodafone.es/bonos",
+      "receivedTime": "2024-01-01 08:48:06",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "29",
+      "from": "607123000",
+      "content": "607123000 ha hecho 1 llamada el dia 29/12/2023 a las 15:08 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-29 14:08:07",
+      "unread": "0"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "28",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-29 14:08:04",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+✅ SMS retrieval completed successfully
+[2026-01-29 02:10:05] ✅ SMS retrieval completed
+[2026-01-29 02:10:05] Step 2: Forwarding new messages to Discord...
+2026-01-29 02:10:06,342 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 02:10:06,347 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 02:10:06,347 - INFO - Consolidated 2 messages from 222177 into summary
+2026-01-29 02:10:06,347 - INFO - Consolidated 4 messages from Vodafone into summary
+2026-01-29 02:10:06,348 - INFO - Forwarding SMS #summary_222177_28_34 from 222177 (2 messages) to Discord
+2026-01-29 02:10:06,783 - INFO - Successfully forwarded SMS #summary_222177_28_34 to Discord
+2026-01-29 02:10:06,786 - INFO - ✅ Forwarded message summary_222177_28_34 from 222177 (2 messages)
+2026-01-29 02:10:06,788 - INFO - Forwarding SMS #29 from 607123000 to Discord
+2026-01-29 02:10:07,152 - INFO - Successfully forwarded SMS #29 to Discord
+2026-01-29 02:10:07,162 - INFO - ✅ Forwarded message 29 from 607123000
+2026-01-29 02:10:07,166 - INFO - Forwarding SMS #summary_Vodafone_30_33 from Vodafone (4 messages) to Discord
+2026-01-29 02:10:07,503 - INFO - Successfully forwarded SMS #summary_Vodafone_30_33 to Discord
+2026-01-29 02:10:07,516 - INFO - ✅ Forwarded message summary_Vodafone_30_33 from Vodafone (4 messages)
+2026-01-29 02:10:07,521 - INFO - Forwarding SMS #35 from 607764756 to Discord
+2026-01-29 02:10:07,920 - INFO - Successfully forwarded SMS #35 to Discord
+2026-01-29 02:10:07,927 - INFO - ✅ Forwarded message 35 from 607764756
+2026-01-29 02:10:07,928 - INFO - ==================================================
+2026-01-29 02:10:07,932 - INFO - 📊 Processing Summary:
+2026-01-29 02:10:07,932 - INFO -   Total messages: 8
+2026-01-29 02:10:07,932 - INFO -   New messages: 4
+2026-01-29 02:10:07,932 - INFO -   Forwarded: 4
+2026-01-29 02:10:07,932 - INFO -   Failed: 0
+2026-01-29 02:10:07,932 - INFO -   Skipped (already forwarded): 0
+2026-01-29 02:10:07,932 - INFO - ==================================================
+2026-01-29 02:10:07,932 - INFO - Sending batch summary to Discord: 4/8 forwarded
+2026-01-29 02:10:08,541 - INFO - Successfully sent batch summary to Discord
+[2026-01-29 02:10:08] ✅ Forwarding completed successfully
+[2026-01-29 02:10:08] Step 3: Deleting forwarded messages from modem...
+[2026-01-29T01:10:09.256Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n0\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "35",
+      "from": "607764756",
+      "content": "607764756 ha hecho 1 llamada el dia 02/01/2024 a las 15:57 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2024-01-02 14:58:01",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "34",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2024-01-02 14:57:59",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "33",
+      "from": "Vodafone",
+      "content": "VF Info: Para acceder a Mi Vodafone por seguridad necesitas el codigo: 481563. No lo compartas con nadie; nunca te lo pediremos por ningun medio. Remitido por Vodafone. i2cVteap5kc",
+      "receivedTime": "2024-01-01 21:27:48",
+      "unread": "0"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "32",
+      "from": "Vodafone",
+      "content": "VF Info: NO COMPARTAS el codigo con nadie. Nunca contactaremos para pedirtelo. Usa el codigo 95928 para continuar con tu registro en Mi Vodafone.",
+      "receivedTime": "2024-01-01 21:25:26",
+      "unread": "0"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "31",
+      "from": "Vodafone",
+      "content": "VF Info:Has consumido el 100% de GB de tu Tarifa.Se reduce la velocidad.Contrata un bono de datos ilimitados desde 5E con IVA en http://m.vodafone.es/bonos",
+      "receivedTime": "2024-01-01 11:40:29",
+      "unread": "0"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "30",
+      "from": "Vodafone",
+      "content": "VF Info:Has consumido el 90% de GB de tu Tarifa. Contrata un bono de datos ilimitados desde 5E con IVA en http://m.vodafone.es/bonos",
+      "receivedTime": "2024-01-01 08:48:06",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "29",
+      "from": "607123000",
+      "content": "607123000 ha hecho 1 llamada el dia 29/12/2023 a las 15:08 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-29 14:08:07",
+      "unread": "0"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "28",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-29 14:08:04",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 10 forwarded messages...
+✅ Deleted: 8, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 02:10:37] ✅ Messages deleted from modem
+[2026-01-29 02:10:37] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 02:10:37] ==========================================
+[2026-01-29 02:12:19] ==========================================
+[2026-01-29 02:12:19] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 02:12:19] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T01:12:20.094Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n0\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "27",
+      "from": "Vodafone",
+      "content": "VF Info: Respondiendo a tu solicitud, hemos modificado tu teléfono de comunicaciones a 657664329. Puedes consultarlo en m.vodafone.es/mod-datos2",
+      "receivedTime": "2023-12-29 13:29:54",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "26",
+      "from": "VODAFONE",
+      "content": "VF Info: ¡Gracias por confiar en Vodafone! Revisa y firma tu contrato, usando el codigo que te enviaremos por sms. Accede a: https://vodafoneinfo.one/RMIA4uHC8D",
+      "receivedTime": "2023-12-29 13:27:31",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "25",
+      "from": "Vodafone",
+      "content": "VF Info: Respondiendo a tu solicitud, hemos realizado la modificacion de tu direccion de instalacion/facturacion. Puedes consultarlo en m.vodafone.es/mod-datos. Gracias por confiar en Vodafone.",
+      "receivedTime": "2023-12-29 13:18:26",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "24",
+      "from": "963112114",
+      "content": "963112114 ha hecho 1 llamada el dia 29/12/2023 a las 12:09 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-29 11:09:26",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "23",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-29 11:09:23",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "22",
+      "from": "963112114",
+      "content": "Nuevo mensaje de 963112114 el 27/12/2023 a las 17:59. Para escucharlo llama al 221103.",
+      "receivedTime": "2023-12-27 16:59:50",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "21",
+      "from": "963112114",
+      "content": "963112114 ha hecho 1 llamada el dia 27/12/2023 a las 15:14 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-27 14:14:45",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "20",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-27 14:14:44",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+✅ SMS retrieval completed successfully
+[2026-01-29 02:12:39] ✅ SMS retrieval completed
+[2026-01-29 02:12:39] Step 2: Forwarding new messages to Discord...
+2026-01-29 02:12:40,166 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 02:12:40,167 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 02:12:40,167 - INFO - Consolidated 2 messages from 222177 into summary
+2026-01-29 02:12:40,167 - INFO - Consolidated 3 messages from 963112114 into summary
+2026-01-29 02:12:40,167 - INFO - Consolidated 2 messages from Vodafone into summary
+2026-01-29 02:12:40,167 - INFO - Forwarding SMS #summary_222177_20_23 from 222177 (2 messages) to Discord
+2026-01-29 02:12:40,781 - INFO - Successfully forwarded SMS #summary_222177_20_23 to Discord
+2026-01-29 02:12:40,782 - INFO - ✅ Forwarded message summary_222177_20_23 from 222177 (2 messages)
+2026-01-29 02:12:40,783 - INFO - Forwarding SMS #summary_963112114_21_24 from 963112114 (3 messages) to Discord
+2026-01-29 02:12:41,123 - INFO - Successfully forwarded SMS #summary_963112114_21_24 to Discord
+2026-01-29 02:12:41,124 - INFO - ✅ Forwarded message summary_963112114_21_24 from 963112114 (3 messages)
+2026-01-29 02:12:41,124 - INFO - Forwarding SMS #summary_Vodafone_25_27 from Vodafone (2 messages) to Discord
+2026-01-29 02:12:41,347 - INFO - Successfully forwarded SMS #summary_Vodafone_25_27 to Discord
+2026-01-29 02:12:41,349 - INFO - ✅ Forwarded message summary_Vodafone_25_27 from Vodafone (2 messages)
+2026-01-29 02:12:41,350 - INFO - Forwarding SMS #26 from VODAFONE to Discord
+2026-01-29 02:12:41,586 - INFO - Successfully forwarded SMS #26 to Discord
+2026-01-29 02:12:41,588 - INFO - ✅ Forwarded message 26 from VODAFONE
+2026-01-29 02:12:41,589 - INFO - ==================================================
+2026-01-29 02:12:41,589 - INFO - 📊 Processing Summary:
+2026-01-29 02:12:41,589 - INFO -   Total messages: 8
+2026-01-29 02:12:41,590 - INFO -   New messages: 4
+2026-01-29 02:12:41,590 - INFO -   Forwarded: 4
+2026-01-29 02:12:41,590 - INFO -   Failed: 0
+2026-01-29 02:12:41,591 - INFO -   Skipped (already forwarded): 0
+2026-01-29 02:12:41,592 - INFO - ==================================================
+2026-01-29 02:12:41,592 - INFO - Sending batch summary to Discord: 4/8 forwarded
+2026-01-29 02:12:41,847 - INFO - Successfully sent batch summary to Discord
+[2026-01-29 02:12:41] ✅ Forwarding completed successfully
+[2026-01-29 02:12:41] Step 3: Deleting forwarded messages from modem...
+[2026-01-29T01:12:42.353Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n0\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "27",
+      "from": "Vodafone",
+      "content": "VF Info: Respondiendo a tu solicitud, hemos modificado tu teléfono de comunicaciones a 657664329. Puedes consultarlo en m.vodafone.es/mod-datos2",
+      "receivedTime": "2023-12-29 13:29:54",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "26",
+      "from": "VODAFONE",
+      "content": "VF Info: ¡Gracias por confiar en Vodafone! Revisa y firma tu contrato, usando el codigo que te enviaremos por sms. Accede a: https://vodafoneinfo.one/RMIA4uHC8D",
+      "receivedTime": "2023-12-29 13:27:31",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "25",
+      "from": "Vodafone",
+      "content": "VF Info: Respondiendo a tu solicitud, hemos realizado la modificacion de tu direccion de instalacion/facturacion. Puedes consultarlo en m.vodafone.es/mod-datos. Gracias por confiar en Vodafone.",
+      "receivedTime": "2023-12-29 13:18:26",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "24",
+      "from": "963112114",
+      "content": "963112114 ha hecho 1 llamada el dia 29/12/2023 a las 12:09 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-29 11:09:26",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "23",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-29 11:09:23",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "22",
+      "from": "963112114",
+      "content": "Nuevo mensaje de 963112114 el 27/12/2023 a las 17:59. Para escucharlo llama al 221103.",
+      "receivedTime": "2023-12-27 16:59:50",
+      "unread": "1"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "21",
+      "from": "963112114",
+      "content": "963112114 ha hecho 1 llamada el dia 27/12/2023 a las 15:14 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-27 14:14:45",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "20",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-27 14:14:44",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 11 forwarded messages...
+✅ Deleted: 8, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 02:13:09] ✅ Messages deleted from modem
+[2026-01-29 02:13:09] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 02:13:09] ==========================================
+[2026-01-29 09:55:52] ==========================================
+[2026-01-29 09:55:52] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 09:55:52] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T08:55:52.532Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+No login prompt detected, continuing...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "19",
+      "from": "963112114",
+      "content": "Nuevo mensaje de 963112114 el 27/12/2023 a las 13:59. Para escucharlo llama al 221102.",
+      "receivedTime": "2023-12-27 12:59:44",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "18",
+      "from": "963112114",
+      "content": "Nuevo mensaje de 963112114 el 27/12/2023 a las 09:19. Para escucharlo llama al 221101.",
+      "receivedTime": "2023-12-27 08:19:52",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "17",
+      "from": "Vodafone",
+      "content": "VF Info: Gracias a tu tarifa tienes 4 meses de regalo de AUDIBLE. Ya puedes disfrutar de más de 90.000 audiolibros y podcast originales. Escucha cuando y donde quieras, incluso sin conexión.Entra y activa tu beneficio: https://go.vodafone.es/audible-reminder",
+      "receivedTime": "2023-12-26 09:36:51",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "16",
+      "from": "699483030",
+      "content": "699483030 ha hecho 1 llamada el dia 22/12/2023 a las 12:40 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-22 11:40:37",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "15",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-22 11:40:35",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "14",
+      "from": "Vodafone.",
+      "content": "Vodafone: Estamos haciendo un doble sorteo de 50 iPads y 100 Camaras Polaroid que pueden ser tuyos si participas hoy. ¡Viva la Navidad! m.vodafone.es/mierco5 ",
+      "receivedTime": "2023-12-20 16:27:25",
+      "unread": "0"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "13",
+      "from": "865611216",
+      "content": "865611216 ha hecho 1 llamada el dia 19/12/2023 a las 18:16 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-19 17:16:23",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "12",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-19 17:16:21",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+✅ SMS retrieval completed successfully
+[2026-01-29 09:56:06] ✅ SMS retrieval completed
+[2026-01-29 09:56:06] Step 2: Forwarding new messages to Discord...
+2026-01-29 09:56:07,198 - INFO - Loaded 8 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 09:56:07,199 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 09:56:07,199 - INFO - Consolidated 2 messages from 222177 into summary
+2026-01-29 09:56:07,199 - INFO - Consolidated 2 messages from 963112114 into summary
+2026-01-29 09:56:07,199 - INFO - Forwarding SMS #summary_222177_12_15 from 222177 (2 messages) to Discord
+2026-01-29 09:56:07,488 - INFO - Successfully forwarded SMS #summary_222177_12_15 to Discord
+2026-01-29 09:56:07,489 - INFO - ✅ Forwarded message summary_222177_12_15 from 222177 (2 messages)
+2026-01-29 09:56:07,490 - INFO - Forwarding SMS #13 from 865611216 to Discord
+2026-01-29 09:56:07,882 - INFO - Successfully forwarded SMS #13 to Discord
+2026-01-29 09:56:07,884 - INFO - ✅ Forwarded message 13 from 865611216
+2026-01-29 09:56:07,885 - INFO - Forwarding SMS #14 from Vodafone. to Discord
+2026-01-29 09:56:08,115 - INFO - Successfully forwarded SMS #14 to Discord
+2026-01-29 09:56:08,117 - INFO - ✅ Forwarded message 14 from Vodafone.
+2026-01-29 09:56:08,119 - INFO - Forwarding SMS #16 from 699483030 to Discord
+2026-01-29 09:56:08,388 - INFO - Successfully forwarded SMS #16 to Discord
+2026-01-29 09:56:08,389 - INFO - ✅ Forwarded message 16 from 699483030
+2026-01-29 09:56:08,390 - INFO - Forwarding SMS #17 from Vodafone to Discord
+2026-01-29 09:56:08,716 - INFO - Successfully forwarded SMS #17 to Discord
+2026-01-29 09:56:08,719 - INFO - ✅ Forwarded message 17 from Vodafone
+2026-01-29 09:56:08,720 - INFO - Forwarding SMS #summary_963112114_18_19 from 963112114 (2 messages) to Discord
+2026-01-29 09:56:09,000 - INFO - Successfully forwarded SMS #summary_963112114_18_19 to Discord
+2026-01-29 09:56:09,003 - INFO - ✅ Forwarded message summary_963112114_18_19 from 963112114 (2 messages)
+2026-01-29 09:56:09,004 - INFO - ==================================================
+2026-01-29 09:56:09,004 - INFO - 📊 Processing Summary:
+2026-01-29 09:56:09,004 - INFO -   Total messages: 8
+2026-01-29 09:56:09,004 - INFO -   New messages: 6
+2026-01-29 09:56:09,005 - INFO -   Forwarded: 6
+2026-01-29 09:56:09,005 - INFO -   Failed: 0
+2026-01-29 09:56:09,005 - INFO -   Skipped (already forwarded): 0
+2026-01-29 09:56:09,006 - INFO - ==================================================
+2026-01-29 09:56:09,006 - INFO - Sending batch summary to Discord: 6/8 forwarded
+2026-01-29 09:56:09,205 - ERROR - Discord API failed for summary: 429
+[2026-01-29 09:56:09] ✅ Forwarding completed successfully
+[2026-01-29 09:56:09] Step 3: Deleting forwarded messages from modem...
+[2026-01-29T08:56:09.855Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "19",
+      "from": "963112114",
+      "content": "Nuevo mensaje de 963112114 el 27/12/2023 a las 13:59. Para escucharlo llama al 221102.",
+      "receivedTime": "2023-12-27 12:59:44",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "18",
+      "from": "963112114",
+      "content": "Nuevo mensaje de 963112114 el 27/12/2023 a las 09:19. Para escucharlo llama al 221101.",
+      "receivedTime": "2023-12-27 08:19:52",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "17",
+      "from": "Vodafone",
+      "content": "VF Info: Gracias a tu tarifa tienes 4 meses de regalo de AUDIBLE. Ya puedes disfrutar de más de 90.000 audiolibros y podcast originales. Escucha cuando y donde quieras, incluso sin conexión.Entra y activa tu beneficio: https://go.vodafone.es/audible-reminder",
+      "receivedTime": "2023-12-26 09:36:51",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "16",
+      "from": "699483030",
+      "content": "699483030 ha hecho 1 llamada el dia 22/12/2023 a las 12:40 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-22 11:40:37",
+      "unread": "1"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "15",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-22 11:40:35",
+      "unread": "1"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "14",
+      "from": "Vodafone.",
+      "content": "Vodafone: Estamos haciendo un doble sorteo de 50 iPads y 100 Camaras Polaroid que pueden ser tuyos si participas hoy. ¡Viva la Navidad! m.vodafone.es/mierco5 ",
+      "receivedTime": "2023-12-20 16:27:25",
+      "unread": "0"
+    },
+    {
+      "__stack": "7,0,0,0,0,0",
+      "index": "13",
+      "from": "865611216",
+      "content": "865611216 ha hecho 1 llamada el dia 19/12/2023 a las 18:16 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-19 17:16:23",
+      "unread": "1"
+    },
+    {
+      "__stack": "8,0,0,0,0,0",
+      "index": "12",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-19 17:16:21",
+      "unread": "1"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 8 messages
+✅ Saved 8 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 21 forwarded messages...
+✅ Deleted: 8, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 09:56:36] ✅ Messages deleted from modem
+[2026-01-29 09:56:36] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 09:56:36] ==========================================
+[2026-01-29 09:59:17] ==========================================
+[2026-01-29 09:59:17] Starting SMS auto-forward cron job (fully automated)
+[2026-01-29 09:59:17] Step 1: Retrieving SMS messages from modem...
+[2026-01-29T08:59:17.565Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n0\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "11",
+      "from": "Vodafone",
+      "content": "VF Info: Gracias a tu tarifa tienes 4 meses de regalo de AUDIBLE. Ya puedes disfrutar de más de 90.000 audiolibros y podcast originales. Escucha cuando y donde quieras, incluso sin conexión.Entra y activa tu beneficio: https://go.vodafone.es/audible-reminder",
+      "receivedTime": "2023-12-17 11:22:36",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "10",
+      "from": "Vodafone",
+      "content": "VF Info: Gracias a tu tarifa tienes 4 meses de regalo de AUDIBLE. Ya puedes disfrutar de más de 90.000 audiolibros y podcast originales. Escucha cuando y donde quieras, incluso sin conexión.Entra y activa tu beneficio: https://go.vodafone.es/audible-reminder",
+      "receivedTime": "2023-12-15 10:27:08",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "9",
+      "from": "607103000",
+      "content": "Nuevo mensaje de 607103000 el 13/12/2023 a las 20:03. Para escucharlo llama al 221101.",
+      "receivedTime": "2023-12-13 19:03:36",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "3",
+      "from": "607103000",
+      "content": "607103000 ha hecho 1 llamada el dia 13/12/2023 a las 11:42 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-13 10:42:32",
+      "unread": "0"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "2",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-13 10:42:30",
+      "unread": "0"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "1",
+      "from": "222177",
+      "content": " VF Info: Personaliza el mensaje de bienvenida de tu contestador y actualiza tu clave de acceso llamando gratis al 22177. Tu clave actual es 4372.",
+      "receivedTime": "2023-12-13 10:42:26",
+      "unread": "0"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 6 messages
+✅ Saved 6 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+✅ SMS retrieval completed successfully
+[2026-01-29 09:59:37] ✅ SMS retrieval completed
+[2026-01-29 09:59:37] Step 2: Forwarding new messages to Discord...
+2026-01-29 09:59:37,331 - INFO - Loaded 6 messages from /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+2026-01-29 09:59:37,332 - INFO - Discord forwarder initialized with bot token for channel: 1466197812420018378
+2026-01-29 09:59:37,332 - INFO - Consolidated 2 messages from 222177 into summary
+2026-01-29 09:59:37,332 - INFO - Consolidated 2 messages from 607103000 into summary
+2026-01-29 09:59:37,332 - INFO - Consolidated 2 messages from Vodafone into summary
+2026-01-29 09:59:37,332 - INFO - Forwarding SMS #summary_222177_1_2 from 222177 (2 messages) to Discord
+2026-01-29 09:59:37,581 - INFO - Successfully forwarded SMS #summary_222177_1_2 to Discord
+2026-01-29 09:59:37,584 - INFO - ✅ Forwarded message summary_222177_1_2 from 222177 (2 messages)
+2026-01-29 09:59:37,585 - INFO - Forwarding SMS #summary_607103000_3_9 from 607103000 (2 messages) to Discord
+2026-01-29 09:59:38,075 - INFO - Successfully forwarded SMS #summary_607103000_3_9 to Discord
+2026-01-29 09:59:38,078 - INFO - ✅ Forwarded message summary_607103000_3_9 from 607103000 (2 messages)
+2026-01-29 09:59:38,079 - INFO - Forwarding SMS #summary_Vodafone_10_11 from Vodafone (2 messages) to Discord
+2026-01-29 09:59:38,477 - INFO - Successfully forwarded SMS #summary_Vodafone_10_11 to Discord
+2026-01-29 09:59:38,481 - INFO - ✅ Forwarded message summary_Vodafone_10_11 from Vodafone (2 messages)
+2026-01-29 09:59:38,483 - INFO - ==================================================
+2026-01-29 09:59:38,483 - INFO - 📊 Processing Summary:
+2026-01-29 09:59:38,483 - INFO -   Total messages: 6
+2026-01-29 09:59:38,483 - INFO -   New messages: 3
+2026-01-29 09:59:38,483 - INFO -   Forwarded: 3
+2026-01-29 09:59:38,483 - INFO -   Failed: 0
+2026-01-29 09:59:38,483 - INFO -   Skipped (already forwarded): 0
+2026-01-29 09:59:38,484 - INFO - ==================================================
+2026-01-29 09:59:38,484 - INFO - Sending batch summary to Discord: 3/6 forwarded
+2026-01-29 09:59:38,799 - INFO - Successfully sent batch summary to Discord
+[2026-01-29 09:59:38] ✅ Forwarding completed successfully
+[2026-01-29 09:59:38] Step 3: Deleting forwarded messages from modem...
+[2026-01-29T08:59:39.392Z] Starting SMS retrieval...
+Modem URL: http://127.0.0.1:3080/
+Output file: /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Headless mode: true
+Launching browser...
+Setting up request interception for correct headers...
+Navigating to modem...
+  Connecting via: http://127.0.0.1:3080/
+  Headers set for: http://192.168.7.1/
+Logging in...
+Checking for login prompt...
+Found "only one login" prompt, clicking "Log In" button...
+✅ Clicked "Log In" button
+Waiting for main interface to load...
+Page state after login: {
+  "url": "http://127.0.0.1:3080/",
+  "title": "TL-MR6400",
+  "hasDollar": true,
+  "hasAct": true,
+  "hasBody": true,
+  "bodyText": "Quick Setup Basic Advanced\n \nEnglish\nLog out\n \nReboot\nNetwork Map\nInternet\nWireless\nGuest Network\nParental Controls\nTP-Link Cloud\n\nInternet\n\nTL-MR6400\n\n2.4GHz\n\n \n0\n\nWireless Clients\n\n2\n\nWired Clients\n",
+  "hasMainDiv": false,
+  "hasLoginForm": false
+}
+✅ Login completed
+Navigating to SMS inbox page...
+✅ Clicked Advanced tab
+✅ Clicked SMS button
+✅ Clicked Inbox link
+Retrieving SMS messages...
+SMS context: {
+  "hasAct": true,
+  "hasACT_SET": true,
+  "hasACT_GL": true,
+  "hasLTE_SMS_RECVMSGBOX": true,
+  "hasLTE_SMS_RECVMSGENTRY": true,
+  "ACT_SET_val": 2,
+  "ACT_GL_val": 5
+}
+Executing SMS retrieval...
+API Response: {
+  "messages": [
+    {
+      "__stack": "1,0,0,0,0,0",
+      "index": "11",
+      "from": "Vodafone",
+      "content": "VF Info: Gracias a tu tarifa tienes 4 meses de regalo de AUDIBLE. Ya puedes disfrutar de más de 90.000 audiolibros y podcast originales. Escucha cuando y donde quieras, incluso sin conexión.Entra y activa tu beneficio: https://go.vodafone.es/audible-reminder",
+      "receivedTime": "2023-12-17 11:22:36",
+      "unread": "1"
+    },
+    {
+      "__stack": "2,0,0,0,0,0",
+      "index": "10",
+      "from": "Vodafone",
+      "content": "VF Info: Gracias a tu tarifa tienes 4 meses de regalo de AUDIBLE. Ya puedes disfrutar de más de 90.000 audiolibros y podcast originales. Escucha cuando y donde quieras, incluso sin conexión.Entra y activa tu beneficio: https://go.vodafone.es/audible-reminder",
+      "receivedTime": "2023-12-15 10:27:08",
+      "unread": "1"
+    },
+    {
+      "__stack": "3,0,0,0,0,0",
+      "index": "9",
+      "from": "607103000",
+      "content": "Nuevo mensaje de 607103000 el 13/12/2023 a las 20:03. Para escucharlo llama al 221101.",
+      "receivedTime": "2023-12-13 19:03:36",
+      "unread": "1"
+    },
+    {
+      "__stack": "4,0,0,0,0,0",
+      "index": "3",
+      "from": "607103000",
+      "content": "607103000 ha hecho 1 llamada el dia 13/12/2023 a las 11:42 h. Pulsa <llamar> para devolver la llamada.",
+      "receivedTime": "2023-12-13 10:42:32",
+      "unread": "0"
+    },
+    {
+      "__stack": "5,0,0,0,0,0",
+      "index": "2",
+      "from": "222177",
+      "content": "This is a detect SM, it's supposed to be invisiable",
+      "receivedTime": "2023-12-13 10:42:30",
+      "unread": "0"
+    },
+    {
+      "__stack": "6,0,0,0,0,0",
+      "index": "1",
+      "from": "222177",
+      "content": " VF Info: Personaliza el mensaje de bienvenida de tu contestador y actualiza tu clave de acceso llamando gratis al 22177. Tu clave actual es 4372.",
+      "receivedTime": "2023-12-13 10:42:26",
+      "unread": "0"
+    }
+  ],
+  "setResult": 0,
+  "exeResult": 0,
+  "ret": 0
+}
+✅ Retrieved 6 messages
+✅ Saved 6 messages to /home/sgarcia/vsr_3g/scripts/data/current_messages.json
+Deleting 9 forwarded messages...
+✅ Deleted: 6, Failed: 0
+✅ Cleared forwarded state after deletion
+✅ SMS retrieval completed successfully
+[2026-01-29 10:00:03] ✅ Messages deleted from modem
+[2026-01-29 10:00:03] ✅ Cron job completed - SMS retrieved, forwarded, and deleted
+[2026-01-29 10:00:03] ==========================================
